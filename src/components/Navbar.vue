@@ -78,7 +78,7 @@
 
       </div>
       <div class="w-[12%] flex items-center justify-center">
-                <div  @click="change()" class="mx-4 p-2"><span><i class="fa fa-search"></i></span></div>
+                <div  @click="change()" class="mx-4 p-2"><span><i class="fas fa-search"></i></span></div>
           <div  @click="change1()" class="xl:mx-4 block xl:hidden  xl:p-2"><span><i class="fa fa-bars"></i></span></div>
       </div>
 
