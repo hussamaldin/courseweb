@@ -1,7 +1,7 @@
 <template>
   <div>
            <div class="w-full text-white flex flex-row overflow-hidden h-[500px] bg-teal-700">
-        <div class="w-[60%] h-full flex justify-center items-center"><div class="text-6xl">Our social impact</div></div>
+        <div class="w-[60%] h-full flex justify-center items-center"><div class="text-6xl sm:text-2xl">Our social impact</div></div>
         <div class="w-[50%] h-full relative">
           <svg class="absolute z-0 top-[130px] right-[80px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
@@ -14,12 +14,12 @@
 <!--Pagecontent-->
 <div class="flex flex-col">
 
-<div class="p-4 w-full h-[650px]">
-  <div class="flex flex-row h-full justify-between items-center p-4">
-        <div class="w-[47%] opacity-0 slidet">
+<div class="p-4 w-full h-[650px] sm:h-auto">
+  <div class="flex flex-row sm:flex-wrap h-full justify-between items-center p-4">
+        <div class="sm:w-full xl:w-[47%] opacity-0 slidet">
           <img :src="img2" class="w-full h-full">
     </div>
-    <div class="w-[43%] h-[80%] flex flex-col justify-center items-center opacity-0 slidet">
+    <div class="sm:w-full xl:w-[43%] h-[80%] flex flex-col justify-center items-center opacity-0 slidet">
       <div class="w-[85%] text-gray-700">
       <div class="text-3xl text-left font-bold my-4">Making a positive contribution</div>
       <div class="text-lg  text-left my-4">We are committed to managing our business in a sustainable way, investing responsibly, and supporting our portfolio companies in making positive contributions to society by developing treatments that will make a difference to the lives of patients and their families.</div>
@@ -29,12 +29,12 @@
 </div>
 
 <div class="p-4 w-full flex justify-center">
-    <div class="text-xl leading-8 p-4 w-[70%]">
+    <div class="text-xl leading-8 xl:p-4 sm:p-2 w-[70%] sm:w-[95%]">
         <div class=" opacity-0 slidet">These companies support the UK life science sector, providing jobs, developing the next generation of industry practitioners, advancing the knowledge economy and in doing so strengthen the foundation for the success of our future businesses. Our charitable commitment allows us to support patients, their families and research institutions beyond our core activities.</div>
 
                 <div class="flex flex-col  py-[100px] space-y-4">
             <div @click="toggle(po.id)"  v-for="po in post" :key="po.id" class="duration-500 opacity-0 slidet w-full border-t-2 border-gray-200 my-3">
-                <button class=" w-full duration-500 text-gray-700 text-4xl flex flex-row justify-between py-4">
+                <button class=" w-full duration-500 text-gray-700 text-4xl sm:text-2xl flex flex-row justify-between py-4">
                   <a>{{po.name}}</a><span><i :class="[po.active?'fa fa-minus text-xl text-yellow-500 animate__animated animate__fadeIn animate__fast':'fa fa-plus text-xl text-yellow-500']"></i></span>
                   </button>
                 <div :class="[po.active?'duration-500 animate__animated animate__fadeIn animate__fast':'duration-500 hidden']">{{po.title}}</div>
@@ -47,26 +47,26 @@
 </div>
 
       
-        <div class="bg-gray-700 w-full h-[500px] mt-4 p-4">
+        <div class="bg-gray-700 w-full h-[500px] sm:h-auto mt-4 p-4">
   <div class="flex justify-center text-white font-bold p-4 text-2xl opacity-0 slidet"><div>KEY SUSTAINABILITY PILLARS</div></div>
-  <div class="flex flex-row justify-between p-4 h-[80%]">
-   <div class="flex flex-col justify-center w-[32%] text-white text-3xl items-center opacity-0 slidet">
+  <div class="flex flex-row sm:flex-wrap justify-between sm:justify-center p-4 h-[80%]">
+   <div class="flex flex-col justify-center w-[32%] sm:w-[60%] text-white text-3xl items-center opacity-0 slidet">
           <div class="w-[50%] h-[33%] flex justify-center relative">
-              <span class="text-gray-700 font-bold absolute text-4xl top-[33%] left-[40%]">01</span>
+              <span class="text-gray-700 font-bold absolute text-4xl top-[31%] left-[38%]">01</span>
               <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 2l6 10.5-6 10.5h-12l-6-10.5 6-10.5z" stroke="white" stroke-width="1" fill="white" /></svg>
   </div>
   <div class="w-[70%] text-center"><a class="hover:text-white hover:underline duration-500">Responsible investor and partner</a></div>
      </div>
- <div class="flex flex-col justify-center border-l-2 border-gray-200 w-[32%] text-white text-3xl opacity-0 slidet items-center">
+ <div class="flex flex-col justify-center xl:border-l-2 border-gray-200 sm:border-t w-[32%] sm:w-[60%] text-white text-3xl opacity-0 slidet items-center">
           <div class="w-[50%] h-[33%] flex justify-center relative">
-              <span class="text-gray-700 font-bold absolute text-4xl top-[33%] left-[40%]">02</span>
+              <span class="text-gray-700 font-bold absolute text-4xl top-[31%] left-[38%]">02</span>
               <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 2l6 10.5-6 10.5h-12l-6-10.5 6-10.5z" stroke="white" stroke-width="1" fill="white" /></svg>
   </div>
   <div class="w-[70%] text-center"><a class="hover:text-white hover:underline duration-500">Inspiring and empowering our people</a></div>
      </div>
- <div class="flex flex-col justify-center border-l-2 border-gray-200 w-[32%] text-white text-3xl opacity-0 slidet items-center">
+ <div class="flex flex-col justify-center xl:border-l-2 border-gray-200 sm:border-t w-[32%] sm:w-[60%] text-white text-3xl opacity-0 slidet items-center">
           <div class="w-[50%] h-[33%] flex justify-center relative">
-              <span class="text-gray-700 font-bold absolute text-4xl top-[33%] left-[40%]">03</span>
+              <span class="text-gray-700 font-bold absolute text-4xl top-[31%] left-[38%]">03</span>
               <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 2l6 10.5-6 10.5h-12l-6-10.5 6-10.5z" stroke="white" stroke-width="1" fill="white" /></svg>
   </div>
   <div class="w-[70%] text-center"><a class="hover:text-white hover:underline duration-500">Responsible and ethical business</a></div>

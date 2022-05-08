@@ -1,14 +1,14 @@
 <template>
   <div class="w-full">
         <div class="w-full text-white flex flex-row overflow-hidden h-[500px] border-b-2 border-teal-500 bg-teal-700">
-        <div class="w-[60%] h-full flex justify-center items-center"><div class="text-6xl">Inspiring and empowering our people</div></div>
+        <div class="w-[60%] h-full flex justify-center items-center"><div class="text-6xl sm:text-2xl">Inspiring and empowering our people</div></div>
         <div class="w-[50%] h-full relative">
           <svg class="absolute z-0 top-[130px] right-[80px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
 </svg>
 
           <div class="absolute bottom-[10px] z-0 right-[100px]">
-              <span class="text-teal-700 font-bold absolute text-8xl top-[33%] left-[30%]">02</span>
+              <span class="text-teal-700 font-bold absolute text-8xl top-[33%] sm:top-[22%] sm:left-[20%] left-[30%]">02</span>
               <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 2l6 10.5-6 10.5h-12l-6-10.5 6-10.5z" stroke="white" stroke-width="1" fill="white" /></svg>
   </div>
         </div>
@@ -16,9 +16,9 @@
     <!--pagecontent-->
      <div class="w-full flex flex-col">
 
-<div class="p-4 w-full h-[500px] my-4">
-  <div class="flex flex-row h-full justify-between items-center p-4">
-    <div class="w-[43%] opacity-0 slidet h-[80%] flex flex-col justify-center items-center">
+<div class="p-4 w-full h-[500px] sm:h-auto my-4">
+  <div class="flex flex-row sm:flex-wrap h-full justify-between items-center p-4">
+    <div class="sm:w-full w-[43%] sm:order-2 opacity-0 slidet h-[80%] flex flex-col justify-center items-center">
       <div class="w-[85%] text-gray-700">
       <div class="text-3xl text-left font-bold my-4">Making a positive contribution</div>
       <div class="text-lg  text-left my-4">We the lives of patients and their families.</div>
@@ -26,14 +26,14 @@
       <div class="text-lg  text-left my-4">We the lives of patients and their families.</div>
       </div>
     </div>
-            <div class="w-[47%]">
+            <div class="sm:w-full sm:order-1 w-[47%]">
           <img :src="img3" class="w-full h-full">
     </div>
   </div>
 </div>
 
 <div class="w-full flex my-4 justify-center">
-    <div class="w-[70%]">
+    <div class="w-[70%] sm:w-[95%]">
        <div class="text-gray-700 opacity-0 slidet text-xl">
            People with specialised expertise, highly motivated by making a difference, are attracted to our platform and the opportunity to improve the lives of patients and their families.The life sciences investment team members have deep technical scientific backgrounds, supplemented by strong commercial experience ranging from venture capital investment to pharmaceutical launch and the operational expertise required to found and build companies around exciting innovation. This multi disciplined skill set is fundamental to our business model and the team’s track record has resulted in a strong network in life science, enabling the best talent to be attracted to our portfolio companies.
        </div>
@@ -97,24 +97,24 @@ We actively encourage our employees to participate in our partnership schemes, e
 </div>
 
       
-        <div class="bg-gray-700 w-full h-[500px] mt-4 p-4">
+        <div class="bg-gray-700 w-full h-[500px] sm:h-auto mt-4 p-4">
   <div class="flex justify-center opacity-0 slidet text-white font-bold p-4 text-2xl"><div>KEY SUSTAINABILITY PILLARS</div></div>
-  <div class="flex flex-row justify-between p-4 h-[80%]">
-   <div class="flex flex-col opacity-0 slidet justify-center w-[32%] text-white text-3xl items-center">
+  <div class="flex flex-row sm:flex-wrap justify-between p-4 h-[80%]">
+   <div class="flex flex-col opacity-0 slidet justify-center w-[32%] sm:w-full text-white text-3xl items-center">
           <div class="w-[50%] h-[33%] flex justify-center relative">
               <span class="text-gray-700 font-bold absolute text-4xl top-[33%] left-[40%]">01</span>
               <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 2l6 10.5-6 10.5h-12l-6-10.5 6-10.5z" stroke="white" stroke-width="1" fill="white" /></svg>
   </div>
   <div class="w-[70%] text-center"><a class="hover:text-white hover:underline duration-500">Responsible investor and partner</a></div>
      </div>
- <div class="flex flex-col opacity-0 slidet justify-center border-l-2 border-gray-200 w-[32%] text-white text-3xl items-center">
+ <div class="flex flex-col opacity-0 slidet justify-center sm:border-t xl:border-l-2 border-gray-200 w-[32%] sm:w-full text-white text-3xl items-center">
           <div class="w-[50%] h-[33%] flex justify-center relative">
               <span class="text-gray-700 font-bold absolute text-4xl top-[33%] left-[40%]">02</span>
               <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 2l6 10.5-6 10.5h-12l-6-10.5 6-10.5z" stroke="white" stroke-width="1" fill="white" /></svg>
   </div>
   <div class="w-[70%] text-center"><a class="hover:text-white hover:underline duration-500">Responsible investor and partner</a></div>
      </div>
- <div class="flex flex-col opacity-0 slidet justify-center border-l-2 border-gray-200 w-[32%] text-white text-3xl items-center">
+ <div class="flex flex-col opacity-0 slidet justify-center sm:border-t xl:border-l-2 border-gray-200 w-[32%] sm:w-full text-white text-3xl items-center">
           <div class="w-[50%] h-[33%] flex justify-center relative">
               <span class="text-gray-700 font-bold absolute text-4xl top-[33%] left-[40%]">04</span>
               <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 2l6 10.5-6 10.5h-12l-6-10.5 6-10.5z" stroke="white" stroke-width="1" fill="white" /></svg>

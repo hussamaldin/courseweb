@@ -1,21 +1,21 @@
 <template>
   <div class="w-full h-full">
-                <div class="w-full text-white flex flex-row overflow-hidden h-[500px] border-b-2 border-teal-500 bg-gray-700">
-        <div class="w-[50%] h-full flex justify-center items-center"><div class="text-5xl">Data driven investment process</div></div>
-        <div class="w-[50%] h-full relative">
-          <svg class="absolute z-0 top-[130px] right-[80px]" width="100" height="200" viewBox="-1 -1 240 300">
+                <div class="w-full text-white flex flex-row sm:flex-wrap overflow-hidden h-[500px] bg-gray-700">
+        <div class="sm:w-full xl:w-[50%] h-full sm:h-auto flex justify-center sm:justify-start sm:absolute sm:top-[250px] items-center"><div class="text-5xl sm:text-3xl">Data driven investment process</div></div>
+        <div class="sm:w-full xl:w-[50%] h-full sm:h-auto relative">
+          <svg class="absolute z-0 top-[130px] sm:top-[300px] right-[80px] sm:left-[150px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="black" stroke-width="1" fill="transparent" />
 </svg>
-<svg class="absolute bottom-[10px] z-0 right-[100px]" width="320" height="320" viewBox="-1 -1 240 300">
+<svg class="absolute bottom-[10px] sm:top-[350px] z-0 right-[100px] sm:left-[100px]" width="320" height="320" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="orange" stroke-width="2" fill="transparent" />
 </svg>
         </div>
     </div>
     <!--pagecontent-->
 <div>
-                  <div class="w-full h-[450px] bg-gray-200 p-4 flex flex-row">
-        <div class="text-4xl w-[50%] p-4 text-gray-600 opacity-0 slidet">We use a number of key performance indicators (KPIs) to assess progress against our strategic objectives, both financial and non-financial</div>
-        <div class="w-[50%] text-xl text-gray-600 p-4 opacity-0 slidet leading-8">Our team’s background in basic science, clinical development and commercialisation enables a holistic understanding of the opportunity, from the scientific basis through to the commercial opportunity. More specifically, the Syncona team conducts a rigorous returns analysis for existing investments ahead of each portfolio company financing round, and re-evaluates the original investment thesis.
+                  <div class="w-full h-[450px] sm:h-auto bg-gray-200 p-4 flex flex-row sm:flex-wrap">
+        <div class="text-4xl sm:w-full xl:w-[50%] p-4 text-gray-600 opacity-0 slidet">We use a number of key performance indicators (KPIs) to assess progress against our strategic objectives, both financial and non-financial</div>
+        <div class="sm:w-full xl:w-[50%] text-xl text-gray-600 p-4 opacity-0 slidet leading-8">Our team’s background in basic science, clinical development and commercialisation enables a holistic understanding of the opportunity, from the scientific basis through to the commercial opportunity. More specifically, the Syncona team conducts a rigorous returns analysis for existing investments ahead of each portfolio company financing round, and re-evaluates the original investment thesis.
 
 We have a hands-on approach, often taking operational roles, and work in partnership with the management teams of our companies to deliver the best results.</div>
         
@@ -54,9 +54,9 @@ We have a hands-on approach, often taking operational roles, and work in partner
       
         <div class="bg-gray-700 w-full h-[500px] mt-4 p-4">
   <div class="flex justify-center text-white p-4 opacity-0 slidet text-3xl"><div>RELATED CONTENT</div></div>
-  <div class="flex flex-row justify-between p-4 h-[90%] opacity-0 slidet">
-   <div class="flex justify-center w-[50%] text-white text-5xl items-center"><div><a class="hover:text-white hover:underline duration-500">KPSI</a></div></div>
-   <div class="flex justify-center w-[50%] border-l border-gray-300 text-white text-5xl items-center duration-500"><div><a class="hover:text-white hover:underline duration-500">Investor</a></div></div>
+  <div class="flex flex-row sm:flex-wrap justify-between p-4 h-[90%] opacity-0 slidet">
+   <div class="flex justify-center sm:w-full xl:w-[50%] xl:border-l sm:border-t-2 border-gray-300 text-white text-5xl items-center"><div><a class="hover:text-white hover:underline duration-500">KPSI</a></div></div>
+   <div class="flex justify-center sm:w-full xl:w-[50%] xl:border-l sm:border-t-2 border-gray-300 text-white text-5xl items-center duration-500"><div><a class="hover:text-white hover:underline duration-500">Investor</a></div></div>
   </div>
 </div>
 

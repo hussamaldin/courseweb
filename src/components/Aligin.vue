@@ -1,36 +1,36 @@
 <template>
   <div>
                  <div class="w-full text-white flex flex-row overflow-hidden h-[500px] border-b-2 border-teal-500 bg-gray-700">
-        <div class="w-[60%] h-full flex justify-center items-center"><div class="text-6xl">Aligning with UN SDGs</div></div>
+        <div class="w-[60%] h-full flex justify-center items-center"><div class="text-6xl sm:text-3xl">Aligning with UN SDGs</div></div>
         <div class="w-[50%] h-full relative">
-          <svg class="absolute z-0 top-[130px] right-[80px]" width="100" height="200" viewBox="-1 -1 240 300">
+          <svg class="absolute z-0 top-[130px] sm:top-[310px] right-[80px] sm:right-[280px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
 </svg>
-<svg class="absolute bottom-[10px] z-0 right-[100px]" width="320" height="320" viewBox="-1 -1 240 300">
+<svg class="absolute bottom-[10px] sm:bottom-[-100px] z-0 right-[100px] sm:right-[280px]" width="320" height="320" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="orange" stroke-width="2" fill="transparent" />
 </svg>
         </div>
     </div>
 <!--pagecontent-->
     <div class="flex flex-col">
-                  <div class="w-full h-[400px] bg-gray-200 p-4 flex flex-row">
-        <div class="text-4xl w-[50%] opacity-0 slidet p-4 text-gray-600">We use a number of key performance indicators (KPIs) to assess progress against our strategic objectives, both financial and non-financial</div>
-        <div class="w-[50%] opacity-0 slidet text-xl text-gray-600 p-4">As part of our commitment to enhanced narrative reporting, we have carried out a review of the Company’s key performance indicators (KPIs), ensuring that they are aligned with the core pillars of our strategy, how we measure progress against these, and how we manage risk. Based on this exercise, we have updated our KPIs, outlined below, looking at both financial and non-financial metrics. These are not specific targets, but metrics that are reported on each year to show progression of the business and reflect the nature of the asset class.</div>
+                  <div class="w-full h-[400px] sm:h-auto bg-gray-200 p-4 flex flex-row sm:flex-wrap">
+        <div class="text-4xl sm:w-full xl:w-[50%] opacity-0 slidet p-4 text-gray-600">We use a number of key performance indicators (KPIs) to assess progress against our strategic objectives, both financial and non-financial</div>
+        <div class="sm:w-full xl:w-[50%] opacity-0 slidet text-xl text-gray-600 p-4">As part of our commitment to enhanced narrative reporting, we have carried out a review of the Company’s key performance indicators (KPIs), ensuring that they are aligned with the core pillars of our strategy, how we measure progress against these, and how we manage risk. Based on this exercise, we have updated our KPIs, outlined below, looking at both financial and non-financial metrics. These are not specific targets, but metrics that are reported on each year to show progression of the business and reflect the nature of the asset class.</div>
         
       </div>
 
 
 
-<div class="p-4 w-full h-[650px] my-4">
-  <div class="flex flex-row bg-gray-200 h-full justify-between items-center">
-        <div class="w-[50%] opacity-0 slidet h-[100%] rounded-lg relative flex overflow-hidden justify-center items-center bg-teal-700">
+<div class="p-4 w-full h-[650px] sm:h-auto my-4">
+  <div class="flex flex-row sm:flex-wrap bg-gray-200 h-full justify-between items-center">
+        <div class="sm:w-full xl:w-[50%] opacity-0 slidet h-full sm:h-auto sm:z-10 rounded-lg relative flex overflow-hidden justify-center items-center bg-teal-700">
                       <svg class="absolute z-0 top-[-150px] right-[-100px]" width="400" height="400" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="yellow" stroke-width="1" fill="orange" />
 </svg>
 <svg class="absolute bottom-[-100px] z-0 right-[400px]" width="400" height="400" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="3" fill="transparent" />
 </svg>
-<div class="w-[65%] h-[70%] bg-white relative">
+<div class="sm:w-full xl:w-[65%] h-[70%] bg-white relative">
      <img :src="img2" class=" mask mask-hexagon-2 absolute bottom-[20px] left-[30px]  w-[45%] h-[50%]">
      <img :src="img1" class=" mask mask-hexagon-2 absolute top-[20px] right-[100px] w-[35%] h-[40%]">
      <svg class="absolute bottom-[100px] z-0 left-[200px]" width="150" height="150" viewBox="-1 -1 240 300">
@@ -39,7 +39,7 @@
 </div>
          
     </div>
-    <div class="w-[50%] opacity-0 slidet h-[100%] p-4 flex flex-col justify-center items-center">
+    <div class="sm:w-full xl:w-[50%] opacity-0 slidet h-[100%] p-4 flex flex-col justify-center items-center">
       <div class="w-[85%] text-gray-700">
       <div class="text-3xl text-left font-bold my-4">Making a positive contribution</div>
       <div class="text-lg  text-left my-4">We are committed to managing our business in a sustainable way, investing responsibly, and supporting our portfolio companies in making positive contributions to society by developing treatments that will make a difference to the lives of patients and their families.</div>
@@ -52,7 +52,7 @@
 </div>
 
 <div class="w-full flex justify-center">
-    <div class="w-[65%]">
+    <div class="w-[65%] sm:w-[80%]">
         <div class="my-4">
             <div class="text-3xl text-gray-700 my-4 font-bold opacity-0 slidet">Aligning to Sustainable Development Goals</div>
             <div class="text-xl my-4 opacity-0 slidet">The UN’s 17 Sustainable Development Goals (SDGs), adopted by the member states in 2015, represent a call to action to end poverty, protect the planet and ensure that all people enjoy peace and prosperity by 2030. Achieving them is fundamental to future global economic and business growth – the Business & Sustainable Development Commission concluded that achieving the goals will create market opportunities of at least $12 trillion a year.
@@ -162,10 +162,10 @@ Our linkages to specific SDGs are illustrated throughout the Environmental, Soci
     </div>
 </div>
 
-      <div class="w-full h-[550px] my-4 bg-gray-700 overflow-hidden">
-          <div class="flex flex-row h-full">
-              <div class="w-[50%] opacity-0 slidet relative flex justify-center items-center translate-x-[-130px]"><img :src="img2" class="mask mask-hexagon-2 w-[900px] h-[900px]"></div>
-              <div class="w-[50%] opacity-0 slidet flex flex-col p-4 justify-center items-center">
+      <div class="w-full h-[550px] sm:h-auto my-4 bg-gray-700 overflow-hidden">
+          <div class="flex flex-row sm:flex-wrap h-full">
+              <div class="sm:w-full xl:w-[50%] opacity-0 slidet relative flex justify-center items-center translate-x-[-130px]"><img :src="img2" class="mask mask-hexagon-2 w-[900px] sm:w-[700px] sm:h-[700px] h-[900px]"></div>
+              <div class="sm:w-full xl:w-[50%] opacity-0 slidet flex flex-col p-4 justify-center items-center">
                   <div class="text-white text-3xl text-center my-4">“We are committed to managing our business in a sustainable way, investing responsibly and supporting our portfolio companies in making positive contributions to society.”</div>
                   <div class="text-xl my-4 text-white">MARTIN MURPHY</div>
                   <div class="text-xl my-4 text-gray-400 text-center">CHIEF EXECUTIVE OFFICER, SYNCONA INVESTMENT MANAGEMENT LIMITED</div>
@@ -175,13 +175,13 @@ Our linkages to specific SDGs are illustrated throughout the Environmental, Soci
 
       
 <div class="w-full p-4 bg-teal-700 my-4">
-    <div class="flex flex-row justify-between">
-        <div class="text-white text-3xl p-4 font-bold w-[50%] opacity-0 slidet">Key pillars of our Sustainability Policy</div>
-        <div class="text-white text-xl p-4 w-[50%] opacity-0 slidet">
+    <div class="flex flex-row sm:flex-wrap justify-between">
+        <div class="text-white text-3xl p-4 font-bold sm:w-full xl:w-[50%] opacity-0 slidet">Key pillars of our Sustainability Policy</div>
+        <div class="text-white text-xl p-4 sm:w-full xl:w-[50%] opacity-0 slidet">
 In FY2020/1, we engaged with our key stakeholders to understand the sustainability issues which are most material to the business. The outcome of the materiality assessment has been used to develop our Sustainability Policy which focuses on four key pillars.</div>
     </div>
     <div class="flex flex-row flex-wrap my-4">
-        <div class="flex flex-row w-[45%] opacity-0 slidet m-4 p-2 h-[180px] bg-teal-500 justify-between items-center">
+        <div class="flex flex-row sm:w-full xl:w-[45%] opacity-0 slidet m-4 p-2 h-[180px] bg-teal-500 justify-between items-center">
             <div class="w-[33%] mx-2 flex justify-center items-center">
                 <div class="w-[60%] h-[60%] flex justify-center items-center relative">
                     <span class="text-teal-700 font-bold absolute text-4xl top-[25%] left-[25%]">01</span>
@@ -194,7 +194,7 @@ In FY2020/1, we engaged with our key stakeholders to understand the sustainabili
   <div class="w-[20%] mx-2 flex justify-center"><span><i class="fas fa-long-arrow-alt-right  text-3xl text-white"></i></span></div>
 
         </div>
-                <div class="flex flex-row w-[45%] opacity-0 slidet m-4 p-2 h-[180px] bg-teal-500 justify-between items-center">
+                <div class="flex flex-row sm:w-full xl:w-[45%] opacity-0 slidet m-4 p-2 h-[180px] bg-teal-500 justify-between items-center">
             <div class="w-[33%] mx-2 flex justify-center items-center">
                 <div class="w-[60%] h-[60%] flex justify-center items-center relative">
                     <span class="text-teal-700 font-bold absolute text-4xl top-[25%] left-[25%]">02</span>
@@ -207,7 +207,7 @@ In FY2020/1, we engaged with our key stakeholders to understand the sustainabili
   <div class="w-[20%] mx-2 flex justify-center"><span><i class="fas fa-long-arrow-alt-right  text-3xl text-white"></i></span></div>
 
         </div>
-                <div class="flex flex-row w-[45%] opacity-0 slidet m-4 p-2 h-[180px] bg-teal-500 justify-between items-center">
+                <div class="flex flex-row sm:w-full xl:w-[45%] opacity-0 slidet m-4 p-2 h-[180px] bg-teal-500 justify-between items-center">
             <div class="w-[33%] mx-2 flex justify-center items-center">
                 <div class="w-[60%] h-[60%] flex justify-center items-center relative">
                     <span class="text-teal-700 font-bold absolute text-4xl top-[25%] left-[25%]">03</span>
@@ -220,7 +220,7 @@ In FY2020/1, we engaged with our key stakeholders to understand the sustainabili
   <div class="w-[20%] mx-2 flex justify-center"><span><i class="fas fa-long-arrow-alt-right  text-3xl text-white"></i></span></div>
 
         </div>
-                <div class="flex flex-row w-[45%] opacity-0 slidet m-4 p-2 h-[180px] bg-teal-500 justify-between items-center">
+                <div class="flex flex-row sm:w-full xl:w-[45%] opacity-0 slidet m-4 p-2 h-[180px] bg-teal-500 justify-between items-center">
             <div class="w-[33%] mx-2 flex justify-center items-center">
                 <div class="w-[60%] h-[60%] flex justify-center items-center relative">
                     <span class="text-teal-700 font-bold absolute text-4xl top-[25%] left-[25%]">04</span>
