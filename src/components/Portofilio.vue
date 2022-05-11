@@ -1,104 +1,104 @@
 <template>
   <div class="w-full h-full">
           <div class="w-full text-white flex flex-row overflow-hidden h-[500px] bg-teal-700">
-        <div class="w-[50%] h-full flex justify-center sm:justify-start items-center"><div class="text-7xl sm:text-3xl">Portofilio</div></div>
+        <div class="w-[50%] h-full flex justify-center ph:justify-start sm:justify-start items-center"><div class="sm:text-7xl sm:text-3xl ph:text-xl">Portofilio</div></div>
         <div class="w-[50%] h-full relative">
-          <svg class="absolute z-0 top-[130px] right-[80px]" width="100" height="200" viewBox="-1 -1 240 300">
+          <svg class="absolute z-0 top-[130px] ph:top-[230px] ph:right-[80px] right-[80px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="black" stroke-width="1" fill="transparent" />
 </svg>
-<svg class="absolute bottom-[80px] sm:bottom-[-100px] z-0 right-[350px]" width="290" height="290" viewBox="-1 -1 240 300">
+<svg class="absolute bottom-[80px] ph:bottom-[-100px] sm:bottom-[-100px] z-0 ph:right-[50px] right-[350px]" width="290" height="290" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
 </svg>
-          <img class="mask mask-hexagon-2 absolute bottom-[-50px] sm:bottom-[-100px] left-[130px] sm:left-[-100px] w-[400px] h-[400px]" :src="img1" />
+          <img class="mask mask-hexagon-2 absolute bottom-[-50px] ph:bottom-[-130px] sm:bottom-[-100px] left-[130px] ph:left-[-20px] sm:left-[-100px] w-[400px] h-[400px]" :src="img1" />
         </div>
     </div>
 <!--PageContent-->
 <div class="flex flex-col">
-          <div class="w-full h-[400px] sm:h-auto p-4 flex flex-row sm:flex-wrap">
-        <div class="text-4xl opacity-0 slidet sm:w-full w-[50%] p-4 text-gray-600">We invest to extend and enhance human life</div>
-        <div class="sm:w-full w-[50%] opacity-0 slidet text-xl text-gray-600 p-4">Our strategy is to create a diversified portfolio of 15-20 globally leading healthcare companies with a goal, over a approval. We focus on
+          <div class="w-full h-[400px] ph:h-auto sm:h-auto p-4 flex flex-row ph:flex-wrap sm:flex-wrap xl:flex-nowrap">
+        <div class="sm:text-4xl ph:text-xl opacity-0 slidet ph:w-full sm:w-full w-[50%] p-4 text-gray-600">We invest to extend and enhance human life</div>
+        <div class="ph:w-full sm:w-full w-[50%] opacity-0 slidet sm:text-xl ph:text-sm text-gray-600 p-4">Our strategy is to create a diversified portfolio of 15-20 globally leading healthcare companies with a goal, over a approval. We focus on
              rolling 10-year basis, of delivering three to five companies in which we retain a significant ownership position to the point of product approval. We focus on globally leading healthcare companies
               developing treatments for patients by working in close partnership with world-class academic founders and management teamsrolling 10-year basis, of delivering three to five .</div>
         
       </div>
 
-      <div class="w-full h-[550px] sm:h-auto my-4 bg-gray-700 overflow-hidden">
-          <div class="flex flex-row sm:flex-wrap h-full">
-              <div class="sm:w-full w-[50%] opacity-0 slidet relative flex justify-center items-center translate-x-[-200px]"><img :src="img2" class="mask mask-hexagon-2 w-[900px] h-[900px] sm:w-[700px] sm:h-[700px]"></div>
-              <div class="sm:w-full w-[50%] opacity-0 slidet flex flex-col p-4 justify-center items-center">
-                  <div class="text-white text-3xl text-center my-4">“We are committed to managing our business in a sustainable way, investing responsibly and supporting our portfolio companies in making positive contributions to society.”</div>
-                  <div class="text-xl my-4 text-white">MARTIN MURPHY</div>
-                  <div class="text-xl my-4 text-gray-400 text-center">CHIEF EXECUTIVE OFFICER, SYNCONA INVESTMENT MANAGEMENT LIMITED</div>
+      <div class="w-full h-[550px] ph:h-auto sm:h-auto my-4 bg-gray-700 overflow-hidden">
+          <div class="flex flex-row ph:flex-wrap sm:flex-wrap xl:flex-nowrap h-full">
+              <div class="ph:w-full sm:w-full w-[50%] opacity-0 slidet relative flex justify-center items-center translate-x-[-200px]"><img :src="img2" class="mask mask-hexagon-2 ph:w-[500px] ph:h-[500px] w-[900px] h-[900px] sm:w-[700px] sm:h-[700px]"></div>
+              <div class="ph:w-full sm:w-full w-[50%] opacity-0 slidet flex flex-col p-4 justify-center items-center">
+                  <div class="text-white sm:text-3xl ph:text-xl text-center my-4">“We are committed to managing our business in a sustainable way, investing responsibly and supporting our portfolio companies in making positive contributions to society.”</div>
+                  <div class="sm:text-xl ph:text-sm my-4 text-white">MARTIN MURPHY</div>
+                  <div class="sm:text-xl ph:text-sm my-4 text-gray-400 text-center">CHIEF EXECUTIVE OFFICER, SYNCONA INVESTMENT MANAGEMENT LIMITED</div>
               </div>
           </div>
       </div>
 
-<div class="w-full  sm:h-auto p-4 bg-teal-700 my-4">
-    <div class="flex flex-row sm:flex-wrap justify-between">
-        <div class="text-white text-3xl p-4 font-bold sm:w-full w-[50%] opacity-0 slidet">Key pillars of our Sustainability Policy</div>
-        <div class="text-white text-xl p-4 sm:w-full w-[50%] opacity-0 slidet">
+<div class="w-full ph:h-auto sm:h-auto p-4 bg-teal-700 my-4">
+    <div class="flex flex-row ph:flex-wrap sm:flex-wrap  xl:flex-nowrap justify-between">
+        <div class="text-white tsm:ext-3xl ph:text-xl p-4 font-bold ph:w-full sm:w-full w-[50%] opacity-0 slidet">Key pillars of our Sustainability Policy</div>
+        <div class="text-white sm:text-xl ph:text-sm p-4 sm:w-full ph:w-full w-[50%] opacity-0 slidet">
 In FY2020/1, we engaged with our key stakeholders to understand the sustainability issues which are most material to the business. The outcome of the materiality assessment has been used to develop our Sustainability Policy which focuses on four key pillars.</div>
     </div>
     <div class="flex flex-row flex-wrap my-4">
-        <div class="flex flex-row w-[45%] sm:w-[90%] opacity-0 slidet m-4 p-2 h-[180px] bg-teal-500 justify-between items-center">
-            <div class="w-[33%] mx-2 flex justify-center items-center">
-                <div class="w-[60%] h-[60%] flex justify-center items-center relative">
-                    <span class="text-teal-700 font-bold absolute text-4xl top-[25%] left-[25%]">01</span>
+        <div class="flex flex-row xl:w-[45%] ph:w-[100%] sm:w-[90%] opacity-0 slidet m-4 p-2 sm:h-[180px] ph:h-[120px] bg-teal-500 justify-between items-center">
+            <div class="w-[30%] mx-2 flex justify-center items-center">
+                <div class="w-[70%] h-[70%] flex justify-center items-center relative">
+                    <span class="text-teal-700 font-bold absolute sm:text-4xl ph:text-xl ph:top-[15%] sm:top-[25%] ph:left-[18%] sm:left-[25%]">01</span>
   <svg class="w-full h-full" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="white" />
   </svg>
   </div>
   </div>
-    <div class="w-[43%] mx-2 text-white text-2xl"><a class="duration-500 hover:text-white hover:underline">Our Social Impact</a></div>
-  <div class="w-[20%] mx-2 flex justify-center"><span><i class="fas fa-long-arrow-alt-right  text-3xl text-white"></i></span></div>
+    <div class="w-[55%] mx-2 text-white sm:text-2xl ph:text-lg"><a class="duration-500 hover:text-white hover:underline">Our Social Impact</a></div>
+  <div class="w-[15%] mx-2 flex justify-center"><span><i class="fas fa-long-arrow-alt-right  sm:text-3xl ph:text-xl text-white"></i></span></div>
 
         </div>
-                <div class="flex flex-row w-[45%] sm:w-[90%] opacity-0 slidet m-4 p-2 h-[180px] bg-teal-500 justify-between items-center">
+                <div class="flex flex-row xl:w-[45%] ph:w-[100%] sm:w-[90%] opacity-0 slidet m-4 p-2 sm:h-[180px] ph:h-[120px] bg-teal-500 justify-between items-center">
             <div class="w-[33%] mx-2 flex justify-center items-center">
                 <div class="w-[60%] h-[60%] flex justify-center items-center relative">
-                    <span class="text-teal-700 font-bold absolute text-4xl top-[25%] left-[25%]">02</span>
+                    <span class="text-teal-700 font-bold absolute sm:text-4xl ph:text-xl ph:top-[15%] sm:top-[25%] ph:left-[18%] sm:left-[25%]">02</span>
   <svg class="w-full h-full" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="white" />
   </svg>
   </div>
   </div>
-    <div class="w-[43%] mx-2 text-white text-2xl"><a class="duration-500 hover:text-white hover:underline">Inveseble Investor  and partenr</a></div>
-  <div class="w-[20%] mx-2 flex justify-center"><span><i class="fas fa-long-arrow-alt-right  text-3xl text-white"></i></span></div>
+    <div class="w-[43%] mx-2 text-white sm:text-2xl ph:text-lg"><a class="duration-500 hover:text-white hover:underline">Inveseble Investor  and partenr</a></div>
+  <div class="w-[20%] mx-2 flex justify-center"><span><i class="fas fa-long-arrow-alt-right  sm:text-3xl ph:text-xl text-white"></i></span></div>
 
         </div>
-                <div class="flex flex-row w-[45%] sm:w-[90%] opacity-0 slidet m-4 p-2 h-[180px] bg-teal-500 justify-between items-center">
+                <div class="flex flex-row xl:w-[45%] ph:w-[100%] sm:w-[90%] opacity-0 slidet m-4 p-2 sm:h-[180px] ph:h-[120px] bg-teal-500 justify-between items-center">
             <div class="w-[33%] mx-2 flex justify-center items-center ">
                 <div class="w-[60%] h-[60%] flex justify-center items-center relative">
-                    <span class="text-teal-700 font-bold absolute text-4xl top-[25%] left-[25%]">03</span>
+                    <span class="text-teal-700 font-bold absolute sm:text-4xl ph:text-xl ph:top-[15%] sm:top-[25%] ph:left-[18%] sm:left-[25%]">03</span>
   <svg class="w-full h-full" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="white" />
   </svg>
   </div>
   </div>
-    <div class="w-[43%] mx-2 text-white text-2xl"><a class="duration-500 hover:text-white hover:underline">Inspiring and empowering our people</a></div>
-  <div class="w-[20%] mx-2 flex justify-center"><span><i class="fas fa-long-arrow-alt-right  text-3xl text-white"></i></span></div>
+    <div class="w-[43%] mx-2 text-white sm:text-2xl ph:text-lg"><a class="duration-500 hover:text-white hover:underline">Inspiring and empowering our people</a></div>
+  <div class="w-[20%] mx-2 flex justify-center"><span><i class="fas fa-long-arrow-alt-right  sm:text-3xl ph:text-xl text-white"></i></span></div>
 
         </div>
-                <div class="flex flex-row w-[45%] sm:w-[90%] opacity-0 slidet m-4 p-2 h-[180px] bg-teal-500 justify-between items-center">
+                <div class="flex flex-row xl:w-[45%] ph:w-[100%] sm:w-[90%] opacity-0 slidet m-4 p-2 sm:h-[180px] ph:h-[120px] bg-teal-500 justify-between items-center">
             <div class="w-[33%] mx-2 flex justify-center items-center">
                 <div class="w-[60%] h-[60%] flex justify-center items-center relative">
-                    <span class="text-teal-700 font-bold absolute text-4xl top-[25%] left-[25%]">04</span>
+                    <span class="text-teal-700 font-bold absolute sm:text-4xl ph:text-xl ph:top-[15%] sm:top-[25%] ph:left-[18%] sm:left-[25%]">04</span>
   <svg class="w-full h-full" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="white" />
   </svg>
   </div>
   </div>
-    <div class="w-[43%] mx-2 text-white text-2xl"><a class="duration-500 hover:text-white hover:underline">Responsible and ethical business</a></div>
-  <div class="w-[20%] mx-2 flex justify-center"><span><i class="fas fa-long-arrow-alt-right  text-3xl text-white"></i></span></div>
+    <div class="w-[43%] mx-2 text-white sm:text-2xl ph:text-lg"><a class="duration-500 hover:text-white hover:underline">Responsible and ethical business</a></div>
+  <div class="w-[20%] mx-2 flex justify-center"><span><i class="fas fa-long-arrow-alt-right  sm:text-3xl ph:text-xl text-white"></i></span></div>
 
         </div>
     </div>
 </div>
 
 
-<div class="p-4 w-full h-[650px] sm:h-auto my-4">
-  <div class="flex flex-row sm:flex-wrap bg-gray-200 h-full justify-between items-center">
-        <div class="sm:w-full w-[50%] h-[100%] rounded-lg relative flex overflow-hidden opacity-0 slidet justify-center items-center bg-teal-700">
+<div class="p-4 w-full xl:h-[650px] ph:h-[900px] sm:h-[900px] my-4">
+  <div class="flex flex-row ph:flex-wrap sm:flex-wrap xl:flex-nowrap bg-gray-200 h-full justify-between items-center">
+        <div class="ph:w-full sm:w-full xl:w-[50%] xl:h-[100%] h-[50%] rounded-lg relative flex overflow-hidden opacity-0 slidet justify-center items-center bg-teal-700">
                       <svg class="absolute z-0 top-[-150px] right-[-100px]" width="400" height="400" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="yellow" stroke-width="1" fill="orange" />
 </svg>
@@ -114,10 +114,10 @@ In FY2020/1, we engaged with our key stakeholders to understand the sustainabili
 </div>
          
     </div>
-    <div class="sm:w-full w-[50%] h-[100%] p-4 flex flex-col justify-center items-center opacity-0 slidet">
+    <div class="ph:w-full sm:w-full xl:w-[50%] xl:h-[100%] h-[50%] p-4 flex flex-col justify-center items-center opacity-0 slidet">
       <div class="w-[85%] text-gray-700">
-      <div class="text-3xl text-left font-bold my-4">Making a positive contribution</div>
-      <div class="text-lg  text-left my-4">We are committed to managing our business in a sustainable way, investing responsibly, and supporting our portfolio companies in making positive contributions to society by developing treatments that will make a difference to the lives of patients and their families.</div>
+      <div class="sm:text-3xl ph:text-xl text-left font-bold my-4">Making a positive contribution</div>
+      <div class="sm:text-lg ph:text-sm text-left my-4">We are committed to managing our business in a sustainable way, investing responsibly, and supporting our portfolio companies in making positive contributions to society by developing treatments that will make a difference to the lives of patients and their families.</div>
       <div class="text-teal-700">17.06.21 | PDF (6.04MB)</div>
     <div class="my-4"><div class="w-[200px] duration-500 my-4 border-2 hover:bg-yellow-500 group flex flex-row justify-around items-center p-2 border-yellow-500 rounded-full text-yellow-500"><span class="text-xl mx-2 font-bold group-hover:text-white">Dwonload</span><span><i class="fas fa-long-arrow-alt-down group-hover:text-white text-lg"></i></span></div></div>
 
@@ -126,18 +126,18 @@ In FY2020/1, we engaged with our key stakeholders to understand the sustainabili
   </div>
 </div>
 
-<div class="flex flex-row sm:flex-wrap sm:h-auto bg-gray-200 my-4 p-4">
-    <div class="sm:w-full w-[50%] flex justify-center relative">
-        <div class="text-gray-600 text-3xl p-4 opacity-0 slidet">Our approach to reporting</div>
-                      <svg class="absolute z-0 sm:hidden bottom-[180px] left-[150px]" width="120" height="220" viewBox="-1 -1 240 300">
+<div class="flex flex-row ph:flex-wrap sm:flex-wrap xl:flex-nowrap sm:h-auto bg-gray-200 my-4 p-4">
+    <div class="ph:w-full sm:w-full w-[50%] flex justify-center relative">
+        <div class="text-gray-600 sm:text-3xl ph:text-xl p-4 opacity-0 slidet">Our approach to reporting</div>
+                      <svg class="absolute z-0 ph:hidden sm:hidden bottom-[180px] left-[150px]" width="120" height="220" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="orange" stroke-width="2" fill="transparent" />
 </svg>
-<svg class="absolute sm:hidden bottom-[1px] z-0 left-[-100px]" width="400" height="400" viewBox="-1 -1 240 300">
+<svg class="absolute sm:hidden ph:hidden bottom-[1px] z-0 left-[-100px]" width="400" height="400" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="#003b6f" stroke-width="2" fill="transparent" />
 </svg>
     </div>
-    <div class="flex flex-col sm:w-full w-[50%] p-2">
-        <div class="border-b-2 border-gray-300 text-xl my-4 p-4 opacity-0 slidet">Making and demonstrating a positive contribution to the UN Sustainable Development Goals (SDGs) is a key part of our approach to reporting on sustainability. The three key UN SDGs which our business is well-aligned with are:</div>
+    <div class="flex flex-col ph:w-full  sm:w-full w-[50%] p-2">
+        <div class="border-b-2 border-gray-300 sm:text-xl my-4 p-4 opacity-0 slidet">Making and demonstrating a positive contribution to the UN Sustainable Development Goals (SDGs) is a key part of our approach to reporting on sustainability. The three key UN SDGs which our business is well-aligned with are:</div>
         <div class="flex flex-row border-b-2 border-gray-300 py-4 my-4">
             <div class="w-[30%] h-[100px]">
                 <svg class="w-[70%] h-[80%] opacity-0 slidet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200" version="1.1">
@@ -160,8 +160,8 @@ In FY2020/1, we engaged with our key stakeholders to understand the sustainabili
     </g>
 </svg></div>
             <div class="w-[70%] opacity-0 slidet flex flex-col">
-                <div class="text-gray-600 text-3xl font-bold">Goal 3</div>
-                <div class="text-xl pr-4">Ensure healthy lives and promote well-being for all at all ages</div>
+                <div class="text-gray-600 sm:text-3xl ph:text-xl font-bold">Goal 3</div>
+                <div class="sm:text-xl ph:text-sm pr-4">Ensure healthy lives and promote well-being for all at all ages</div>
             </div>
         </div>
                 <div class="flex flex-row border-b-2 border-gray-300 py-4 my-4">
@@ -187,8 +187,8 @@ In FY2020/1, we engaged with our key stakeholders to understand the sustainabili
     </g>
 </svg></div>
             <div class="w-[70%] opacity-0 slidet flex flex-col">
-                <div class="text-gray-600 text-3xl font-bold">Goal 8</div>
-                <div class="text-xl pr-4">Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all</div>
+                <div class="text-gray-600 sm:text-3xl ph:text-l font-bold">Goal 8</div>
+                <div class="sm:text-xl ph:text-sm pr-4">Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all</div>
             </div>
         </div>
         
@@ -210,8 +210,8 @@ In FY2020/1, we engaged with our key stakeholders to understand the sustainabili
     </g>
 </svg></div>
             <div class="w-[70%] opacity-0 slidet flex flex-col">
-                <div class="text-gray-600 text-3xl font-bold">Goal 9</div>
-                <div class="text-xl pr-4">Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation</div>
+                <div class="text-gray-600 sm:text-3xl ph:text-l font-bold">Goal 9</div>
+                <div class="sm:text-xl ph:text-sm pr-4">Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation</div>
             </div>
         </div>
             <div class="my-4"><div class="w-[260px] duration-500 my-4 border-2 hover:bg-yellow-500 group flex flex-row justify-around items-center p-2 border-yellow-500 rounded-full text-yellow-500"><span class="text-xl mx-2 font-bold group-hover:text-white">More About SDGs</span><span><i class="fas fa-long-arrow-alt-right group-hover:text-white text-lg"></i></span></div></div>
@@ -221,15 +221,15 @@ In FY2020/1, we engaged with our key stakeholders to understand the sustainabili
 
 
 
-<div class="p-4 w-full h-[650px] sm:h-auto">
-  <div class="flex flex-row sm:flex-wrap h-full justify-between items-center p-4">
-        <div class="sm:w-full w-[47%] opacity-0 slidet">
+<div class="p-4 w-full h-[650px] ph:h-auto sm:h-auto">
+  <div class="flex flex-row ph:flex-wrap sm:flex-wrap xl:flex-nowrap h-full justify-between items-center p-4">
+        <div class="ph:w-full sm:w-full w-[47%] opacity-0 slidet">
           <img :src="img3" class="w-full h-full">
     </div>
-    <div class="sm:w-full w-[45%] h-[80%] opacity-0 slidet flex flex-col justify-center items-center">
+    <div class="ph:w-full sm:w-full w-[45%] h-[80%] opacity-0 slidet flex flex-col justify-center items-center">
       <div class="w-[85%] text-gray-700">
-      <div class="text-3xl text-left font-bold my-4">Making a positive contribution</div>
-      <div class="text-lg  text-left my-4">
+      <div class="sm:text-3xl ph:text-xl text-left font-bold my-4">Making a positive contribution</div>
+      <div class="sm:text-lg ph:text-sm text-left my-4">
           In October 2021 we became a signatory to the United Nations Principles for Responsible 
           Investment (PRI). The PRI is recognised as the world's leading network for investors who
            are committed to integrating sustainability factors into their investment and stewardship
@@ -243,40 +243,40 @@ In FY2020/1, we engaged with our key stakeholders to understand the sustainabili
 
 <div class="w-full h-[400px] ">
     <div class="flex text-gray-700 flex-row justify-between p-4">
-  <div class="text-3xl opacity-0 slidet">Sustainability articles & insights</div>
+  <div class="text-3xl ph:text-xl opacity-0 slidet">Sustainability articles & insights</div>
   <div class="flex flex-row justify-between items-center">
-    <div class="text-xl mx-2 opacity-0 slidet"><span>1</span>/<span>1</span></div><div class="flex flex-row justify-between items-center"><button class="mx-2  flex justify-center items-center duration-500 w-[50px] h-[50px]  border-2 border-gray-300 rounded-full"><i class="fas fa-long-arrow-alt-left text-gray-400 text-xl"></i></button><button class="flex justify-center items-center duration-500 w-[50px] h-[50px]  border-2 border-gray-300 rounded-full"><i class="fas fa-long-arrow-alt-right text-gray-400 text-xl"></i></button></div>
+    <div class="text-xl ph:text-sm mx-2 opacity-0 slidet"><span>1</span>/<span>1</span></div><div class="flex flex-row justify-between items-center"><button class="mx-2  flex justify-center items-center duration-500 w-[50px] h-[50px]  border-2 border-gray-300 rounded-full"><i class="fas fa-long-arrow-alt-left text-gray-400 text-xl"></i></button><button class="flex justify-center items-center duration-500 w-[50px] h-[50px]  border-2 border-gray-300 rounded-full"><i class="fas fa-long-arrow-alt-right text-gray-400 text-xl"></i></button></div>
   </div>
 </div>
-        <div class=" flex justify-center w-full my-4"><div class="w-[400px] opacity-0 slidet duration-500 my-4 border-2 hover:bg-yellow-500 group flex flex-row justify-around items-center p-2 border-yellow-500 rounded-full text-yellow-500"><span class="text-xl mx-2 group-hover:text-white">VIEW ALL INSIGHTS AND ARTICLES</span><span><i class="fas fa-long-arrow-alt-right group-hover:text-white text-2xl"></i></span></div></div>
+        <div class=" flex justify-center w-full my-4"><div class="sm:w-[400px] ph:w-[300px] opacity-0 slidet duration-500 my-4 border-2 hover:bg-yellow-500 group flex flex-row justify-around items-center p-2 border-yellow-500 rounded-full text-yellow-500"><span class="sm:text-xl ph:text-sm mx-2 group-hover:text-white">VIEW ALL INSIGHTS AND ARTICLES</span><span><i class="fas fa-long-arrow-alt-right group-hover:text-white text-2xl ph:text-lg"></i></span></div></div>
 
 </div>
 
 <div class="w-full h-[300px] flex flex-col justify-center p-4 bg-gray-700 ">
-    <div class="my-4 flex justify-center"><div class="text-white text-4xl opacity-0 slidet">Receive company news alerts</div></div>
-    <div class="my-4 flex justify-center"><div class="w-[260px] duration-500 opacity-0 slidet my-4 border-2 hover:bg-white group flex flex-row justify-around items-center p-2 border-white rounded-full text-white"><span class="text-xl mx-2 font-bold group-hover:text-gray-700">EMAIL ALERTS</span><span><i class="fas fa-long-arrow-alt-right group-hover:text-gray-700 text-lg"></i></span></div></div>
+    <div class="my-4 flex justify-center"><div class="text-white sm:text-4xl ph:text-xl opacity-0 slidet">Receive company news alerts</div></div>
+    <div class="my-4 flex justify-center"><div class="w-[260px] duration-500 opacity-0 slidet my-4 border-2 hover:bg-white group flex flex-row justify-around items-center p-2 border-white rounded-full text-white"><span class="sm:text-xl ph:text-lg mx-2 font-bold group-hover:text-gray-700">EMAIL ALERTS</span><span><i class="fas fa-long-arrow-alt-right group-hover:text-gray-700 text-lg "></i></span></div></div>
 </div>
 
-<div class="p-4 w-full h-[650px] sm:h-auto">
-  <div class="flex flex-row sm:flex-wrap h-full justify-between items-center p-4">
-    <div class="sm:w-full sm:order-2 w-[45%] opacity-0 slidet h-[80%] flex flex-col justify-center items-center">
+<div class="p-4 w-full h-[650px] ph:h-auto sm:h-auto">
+  <div class="flex flex-row ph:flex-wrap sm:flex-wrap xl:flex-nowrap h-full justify-between items-center p-4">
+    <div class="ph:w-full sm:w-full ph:order-2 sm:order-2 w-[45%] opacity-0 slidet h-[80%] flex flex-col justify-center items-center">
       <div class="w-[85%] text-gray-700">
-      <div class="text-3xl text-left font-bold my-4">Making a positive contribution</div>
-      <div class="text-lg  text-left my-4">We are committed to managing our business in a sustainable way, investing responsibly, and supporting our portfolio companies in making positive contributions to society by developing treatments that will make a difference to the lives of patients and their families.</div>
-      <div class="flex justify-start my-4"><div class="w-[350px] duration-500 my-4 border-2 hover:bg-yellow-500 group flex flex-row justify-around items-center p-2 border-yellow-500 rounded-full text-yellow-500"><span class="text-xl mx-2 font-bold group-hover:text-white">ABOUT THE FOUNDATION</span><span><i class="fa fa-arrow-right group-hover:text-white text-lg"></i></span></div></div>
+      <div class="text-3xl ph:text-xl text-left font-bold my-4">Making a positive contribution</div>
+      <div class="text-lg ph:text-sm text-left my-4">We are committed to managing our business in a sustainable way, investing responsibly, and supporting our portfolio companies in making positive contributions to society by developing treatments that will make a difference to the lives of patients and their families.</div>
+      <div class="flex justify-start my-4"><div class="sm:w-[350px] ph:w-[400px] duration-500 my-4 border-2 hover:bg-yellow-500 group flex flex-row justify-around items-center p-2 border-yellow-500 rounded-full text-yellow-500"><span class="sm:text-xl ph:text-sm mx-2 font-bold group-hover:text-white">ABOUT THE FOUNDATION</span><span><i class="fa fa-arrow-right group-hover:text-white text-lg"></i></span></div></div>
       </div>
     </div>
-            <div class="sm:w-full sm:order-1 w-[47%] opacity-0 slidet">
+            <div class="ph:w-full sm:w-full ph:order-1 sm:order-1 w-[47%] opacity-0 slidet">
           <img :src="img5" class="w-full h-full">
     </div>
   </div>
 </div>
 
         <div class="bg-gray-700 w-full h-[500px] mt-4 p-4">
-  <div class="flex justify-center text-white p-4 text-3xl opacity-0 slidet"><div>RELATED CONTENT</div></div>
-  <div class="flex flex-row sm:flex-wrap justify-between p-4 h-[90%]">
-   <div class="flex justify-center sm:w-full w-[50%] opacity-0 slidet xl:border-l sm:border-t border-gray-300 text-white text-5xl items-center"><div><a class="hover:text-white hover:underline duration-500">Investors</a></div></div>
-   <div class="flex justify-center sm:w-full w-[50%] opacity-0 slidet xl:border-l sm:border-t border-gray-300 text-white text-5xl items-center duration-500"><div><a class="hover:text-white hover:underline duration-500">KPIs</a></div></div>
+  <div class="flex justify-center text-white p-4 text-3xl ph:text-xl opacity-0 slidet"><div>RELATED CONTENT</div></div>
+  <div class="flex flex-row ph:flex-wrap sm:flex-wrap justify-between p-4 h-[90%]">
+   <div class="flex justify-center ph:w-full sm:w-full xl:w-[50%] opacity-0 slidet ph:border-t sm:border-t xl:border-t-0 border-gray-300 text-white text-5xl items-center"><div><a class="hover:text-white hover:underline duration-500">Investors</a></div></div>
+   <div class="flex justify-center ph:w-full sm:w-full xl:w-[50%] opacity-0 slidet ph:border-t sm:border-t xl:border-t-0 xl:border-l border-gray-300 text-white text-5xl items-center duration-500"><div><a class="hover:text-white hover:underline duration-500">KPIs</a></div></div>
   </div>
 </div>
 </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="w-full h-full">
-          <div class="w-full text-white flex flex-row sm:flex-wrap overflow-hidden h-[500px] border-b-2 border-teal-500 bg-gray-700">
+          <div class="w-full text-white flex flex-row sm:flex-wrap overflow-hidden h-[500px] bg-gray-700">
         <div class="sm:w-full xl:w-[50%] h-full sm:h-auto flex justify-center sm:justify-start items-center"><div class="text-7xl sm:text-5xl">Whoe We Are</div></div>
         <div class="sm:w-full xl:w-[50%] h-full sm:h-auto relative">
           <svg class="absolute z-0 top-[130px] sm:top-[50px] right-[80px]sm:right-[10px]" width="100" height="200" viewBox="-1 -1 240 300">
@@ -119,8 +119,8 @@
         <div class="bg-gray-700  w-full h-[500px] mt-4 p-4">
   <div class="flex justify-center text-white opacity-0 slidet p-4 text-3xl"><div>RELATED CONTENT</div></div>
   <div class="flex flex-row sm:flex-wrap justify-between p-4 h-[90%]">
-   <div class="flex justify-center sm:w-full xl:w-[50%] opacity-0 slidet text-white text-5xl items-center"><div><a class="hover:text-white hover:underline duration-500">Portofilio</a></div></div>
-   <div class="flex justify-center sm:w-full xl:w-[50%] opacity-0 slidet xl:border-l border-gray-300 sm:border-t-2 text-white text-5xl items-center duration-500"><div><a class="hover:text-white hover:underline duration-500">Investor</a></div></div>
+   <div class="flex justify-center sm:w-full xl:w-[50%] opacity-0 slidet sm:border-t xl:border-t-0 border-gray-300 text-white text-5xl items-center"><div><a class="hover:text-white hover:underline duration-500">Portofilio</a></div></div>
+   <div class="flex justify-center sm:w-full xl:w-[50%] opacity-0 slidet sm:border-t xl:border-t-0 xl:border-l border-gray-300  text-white text-5xl items-center duration-500"><div><a class="hover:text-white hover:underline duration-500">Investor</a></div></div>
   </div>
 </div>
       </div>
