@@ -120,6 +120,7 @@
     </div>
   </div>
 
+
 <div class="w-full p-4 xl:h-[650px] ph:h-auto sm:h-auto">
   <div class="flex xl:flex-row h-full ph:flex-wrap sm:flex-wrap justify-between items-center p-4">
         <div class="flex justify-center items-center overflow-hidden xl:w-[47%] ph:w-full sm:w-full opacity-0 slidet ph:h-[350px] sm:h-[350px] xl:h-[80%] bg-gray-700 relative">
@@ -133,7 +134,7 @@
         <div class="ph:text-sm sm:text-lg text-center my-2">SYNC (LON)</div>
         <div class="ph:text-lg sm:text-xl text-center my-2"><span class="ph:text-2xl sm:text-4xl">163.80</span>GBX</div>
         <div class="ph:text-sm sm:text-lg text-center my-2">CHANGE -9.60 (-5.54%)</div>
-        <div class="ph:text-sm sm:text-sm text-center my-2">20 April 2022 at 07:49. Pricing delayed by 20 mins.</div>
+        <div class="ph:text-sm sm:text-sm text-center my-2">20 Aprirl 2022 at 07:49. Pricing delayed by 20 mins.</div>
       </div>
     </div>
     <div class="xl:w-[47%] ph:w-full sm:w-full opacity-0 slidet ph:h-auto sm:h-auto xl:h-[80%] flex flex-col justify-center items-center">
