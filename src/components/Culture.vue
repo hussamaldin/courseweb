@@ -1,12 +1,12 @@
 <template>
     <div>
                  <div class="w-full text-white flex flex-row sm:flex-wrap overflow-hidden h-[500px] border-b-2 border-teal-500 bg-teal-700">
-        <div class="sm:w-full xl:w-[60%] ph:h-auto h-full sm:h-auto absolute ph:top-[200px] sm:top-[200px] flex justify-center sm:justify-start items-center"><div class="text-6xl sm:text-3xl ph:text-xl">Aligning with UN SDGs</div></div>
-        <div class="sm:w-full xl:w-[50%] ph:h-auto h-full relative">
-          <svg class="absolute z-0 top-[130px] ph:top-[300px] sm:top-[300px] right-[80px] ph:left-[200px] sm:right-[300px]" width="100" height="200" viewBox="-1 -1 240 300">
+        <div class="sm:w-full xl:w-[60%] ph:h-auto xl:h-full sm:h-auto absolute ph:top-[200px] sm:top-[200px] flex justify-center sm:justify-start items-center"><div class="text-6xl sm:text-3xl ph:text-xl">Aligning with UN SDGs</div></div>
+        <div class="sm:w-full xl:w-[50%] ph:h-auto xl:h-full relative">
+          <svg class="absolute z-0 xl:top-[130px] ph:top-[300px] sm:top-[300px] xl:right-[80px] ph:left-[200px] sm:right-[300px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
 </svg>
-<svg class="absolute bottom-[10px] sm:bottom-[-100px] ph:bottom-[-150px] z-0 right-[100px] ph:left-[100px] sm:left-[100px]" width="320" height="320" viewBox="-1 -1 240 300">
+<svg class="absolute xl:bottom-[10px] sm:bottom-[-100px] ph:bottom-[-150px] z-0 xl:right-[100px] ph:left-[100px] sm:left-[100px]" width="320" height="320" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="orange" stroke-width="2" fill="transparent" />
 </svg>
         </div>
@@ -14,7 +14,7 @@
 <!--pagecontent-->
     <div class="flex flex-col">
 
-                  <div class="w-full h-[600px] ph:h-auto sm:h-auto p-4 my-4 flex flex-row ph:flex-wrap sm:flex-wrap">
+                  <div class="w-full xl:h-[600px] ph:h-auto sm:h-auto p-4 my-4 flex flex-row ph:flex-wrap sm:flex-wrap">
         <div class="sm:text-4xl ph:text-xl ph:w-full sm:w-full xl:w-[54%] opacity-0 slidet p-4 text-gray-600 relative">
                       <svg class="absolute z-0 bottom-[130px] left-[10px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="gray" stroke-width="5" fill="transparent" />
@@ -41,12 +41,12 @@
 
 
 
-                  <div class="w-full h-[600px] ph:h-auto sm:h-auto bg-gray-200 p-4 my-4 flex flex-row ph:flex-wrap sm:flex-wrap">
+                  <div class="w-full xl:h-[600px] ph:h-auto sm:h-auto bg-gray-200 p-4 my-4 flex flex-row ph:flex-wrap sm:flex-wrap">
                               <div class="sm:w-full ph:w-full ph:order-2 sm:order-2 xl:w-[46%] opacity-0 slidet text-xl flex flex-col items-center justify-center text-gray-600 p-4">
                        <div class="sm:text-3xl ph:text-xl text-gray-700 my-4 font-bold">A strong culture and purpose</div>
             <div class="sm:text-xl ph:text-sm my-4">Our purpose is to invest to extend and enhance human life.</div>
 </div>
-        <div class="text-4xl ph:text-xl sm:w-full ph:w-full xl:w-[54%] ph:order-1 sm:order-1 opacity-0 slidet p-4 text-gray-600 relative">
+        <div class="sm:text-4xl ph:text-xl sm:w-full ph:w-full xl:w-[54%] ph:order-1 sm:order-1 opacity-0 slidet p-4 text-gray-600 relative">
                       <svg class="absolute z-0 bottom-[130px] left-[10px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="gray" stroke-width="5" fill="transparent" />
 </svg>
@@ -99,10 +99,10 @@
       </div>
 
 <div class="w-full my-4 flex justify-center">
-    <div class="w-[80%] ph:w-[95%] sm:w-[95%] opacity-0 slidet text-gray-700 text-3xl ph:text-xl">When we build successful Ongoing evaluation of emerging companies, it benefits all our stakeholders:</div>
+    <div class="xl:w-[80%] ph:w-[95%] sm:w-[95%] opacity-0 slidet text-gray-700 text-3xl ph:text-xl">When we build successful Ongoing evaluation of emerging companies, it benefits all our stakeholders:</div>
 </div>
 
-<div class="p-4 w-full h-[500px] ph:h-auto sm:h-auto my-4">
+<div class="p-4 w-full xl:h-[500px] ph:h-auto sm:h-auto my-4">
   <div class="flex flex-row ph:flex-wrap sm:flex-wrap h-full justify-between items-center p-4">
         <div class="ph:w-full sm:w-full xl:w-[47%] opacity-0 slidet">
           <img :src="img3" class="w-full h-full">
@@ -119,7 +119,7 @@
 </div>
 
 
-<div class="p-4 w-full h-[500px] ph:h-auto sm:h-auto my-4 bg-gray-200">
+<div class="p-4 w-full xl:h-[500px] ph:h-auto sm:h-auto my-4 bg-gray-200">
   <div class="flex flex-row ph:flex-wrap sm:flex-wrap h-full justify-between items-center p-4">
     <div class="ph:w-full sm:w-full xl:w-[43%] ph:order-2 sm:order-2 opacity-0 slidet h-[80%] flex flex-col justify-center items-center">
       <div class="w-[85%] text-gray-700">
@@ -136,7 +136,7 @@
 </div>
 
 
-<div class="p-4 w-full h-[500px] ph:h-auto sm:h-auto my-4">
+<div class="p-4 w-full xl:h-[500px] ph:h-auto sm:h-auto my-4">
   <div class="flex flex-row ph:flex-wrap sm:flex-wrap h-full justify-between items-center p-4">
         <div class="ph:w-full sm:w-full xl:w-[47%] opacity-0 slidet">
           <img :src="img5" class="w-full h-full">
@@ -155,8 +155,8 @@
         <div class="bg-gray-700 w-full h-[500px] mt-4 p-4">
   <div class="flex justify-center text-white opacity-0 slidet p-4 sm:text-3xl"><div>RELATED CONTENT</div></div>
   <div class="flex flex-row ph:flex-wrap  sm:flex-wrap justify-between p-4 h-[90%]">
-   <div class="flex justify-center ph:w-full sm:w-full xl:w-[50%] opacity-0 ph:border-t sm:border-t xl:border-t-0 border-gray-300 slidet text-white ph:text-2xl text-5xl items-center"><div><a class="hover:text-white hover:underline duration-500">Who we are</a></div></div>
-   <div class="flex justify-center ph:w-full sm:w-full xl:w-[50%] opacity-0 slidet ph:border-t sm:border-t xl:border-t-0 xl:border-l border-gray-300 ph:text-2xl text-white text-5xl items-center duration-500"><div><a class="hover:text-white hover:underline duration-500">The Syncona platform</a></div></div>
+   <div class="flex justify-center ph:w-full sm:w-full xl:w-[50%] opacity-0 ph:border-t sm:border-t xl:border-t-0 border-gray-300 slidet text-white ph:text-2xl sm:text-5xl items-center"><div><a class="hover:text-white hover:underline duration-500">Who we are</a></div></div>
+   <div class="flex justify-center ph:w-full sm:w-full xl:w-[50%] opacity-0 slidet ph:border-t sm:border-t xl:border-t-0 xl:border-l border-gray-300 ph:text-2xl text-white sm:text-5xl items-center duration-500"><div><a class="hover:text-white hover:underline duration-500">The Syncona platform</a></div></div>
   </div>
 </div>
     </div>
