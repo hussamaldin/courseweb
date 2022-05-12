@@ -3,10 +3,10 @@
                  <div class="w-full text-white flex flex-row overflow-hidden h-[500px] border-b-2 border-teal-500 bg-teal-700">
         <div class="w-[60%] h-full flex justify-center sm:justify-start items-center"><div class="ph:text-xl xl:text-6xl sm:text-3xl">Aligning with UN SDGs</div></div>
         <div class="w-[50%] h-full relative">
-          <svg class="absolute z-0 top-[130px] ph:top-[300px] sm:top-[300px] right-[80px]" width="100" height="200" viewBox="-1 -1 240 300">
+          <svg class="absolute z-0 xl:top-[130px] ph:top-[300px] sm:top-[300px] xl:right-[80px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
 </svg>
-<svg class="absolute bottom-[10px] ph:bottom-[-140px] sm:bottom-[-140px] z-0 right-[100px]" width="320" height="320" viewBox="-1 -1 240 300">
+<svg class="absolute xl:bottom-[10px] ph:bottom-[-140px] sm:bottom-[-140px] z-0 xl:right-[100px]" width="320" height="320" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="orange" stroke-width="2" fill="transparent" />
 </svg>
         </div>

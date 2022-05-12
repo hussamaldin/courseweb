@@ -163,7 +163,7 @@ Our linkages to specific SDGs are illustrated throughout the Environmental, Soci
 
       <div class="w-full xl:h-[550px] ph:h-auto sm:h-auto my-4 bg-gray-700 overflow-hidden">
           <div class="flex flex-row ph:flex-wrap sm:flex-wrap h-full">
-              <div class=" ph:w-full sm:w-full xl:w-[50%] opacity-0 slidet relative flex justify-center items-center translate-x-[-130px]"><img :src="img2" class="mask mask-hexagon-2 w-[900px] ph:w-[500px] ph:h-[400px] sm:w-[700px] sm:h-[700px] h-[900px]"></div>
+              <div class=" ph:w-full sm:w-full xl:w-[50%] opacity-0 slidet relative flex justify-center items-center translate-x-[-130px]"><img :src="img2" class="mask mask-hexagon-2 xl:w-[900px] ph:w-[500px] ph:h-[400px] sm:w-[700px] sm:h-[700px] sm:h-[900px]"></div>
               <div class="sm:w-full ph:w-full xl:w-[50%] opacity-0 slidet flex flex-col p-4 justify-center items-center">
                   <div class="text-white sm:text-3xl ph:text-xl text-center my-4">“We are committed to managing our business in a sustainable way, investing responsibly and supporting our portfolio companies in making positive contributions to society.”</div>
                   <div class="sm:text-xl ph:text-sm my-4 text-white">MARTIN MURPHY</div>

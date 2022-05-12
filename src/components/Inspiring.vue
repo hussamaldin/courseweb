@@ -16,9 +16,9 @@
     <!--pagecontent-->
      <div class="w-full flex flex-col">
 
-<div class="p-4 w-full h-[500px] ph:h-auto sm:h-auto my-4">
+<div class="p-4 w-full xl:h-[500px] ph:h-auto sm:h-auto my-4">
   <div class="flex flex-row ph:flex-wrap sm:flex-wrap h-full justify-between items-center p-4">
-    <div class="ph:w-full sm:w-full w-[43%] ph:order-2 sm:order-2 opacity-0 slidet h-[80%] flex flex-col justify-center items-center">
+    <div class="ph:w-full sm:w-full xl:w-[43%] ph:order-2 sm:order-2 opacity-0 slidet h-[80%] flex flex-col justify-center items-center">
       <div class="w-[85%] text-gray-700">
       <div class=" ph:text-xl sm:text-3xl text-left font-bold my-4">Making a positive contribution</div>
       <div class="sm:text-lg ph:text-sm text-left my-4">We the lives of patients and their families.</div>
@@ -26,7 +26,7 @@
       <div class="sm:text-lg ph:text-sm text-left my-4">We the lives of patients and their families.</div>
       </div>
     </div>
-            <div class="ph:w-full sm:w-full ph:order-1 sm:order-1 w-[47%]">
+            <div class="ph:w-full sm:w-full ph:order-1 sm:order-1 xl:w-[47%]">
           <img :src="img3" class="w-full h-full">
     </div>
   </div>
@@ -97,7 +97,7 @@ We actively encourage our employees to participate in our partnership schemes, e
 </div>
 
       
-        <div class="bg-gray-700 w-full h-[500px] ph:h-auto sm:h-auto mt-4 p-4">
+        <div class="bg-gray-700 w-full xl:h-[500px] ph:h-auto sm:h-auto mt-4 p-4">
   <div class="flex justify-center opacity-0 slidet text-white font-bold p-4 ph:text-xl sm:text-2xl"><div>KEY SUSTAINABILITY PILLARS</div></div>
   <div class="flex flex-row ph:flex-wrap sm:flex-wrap justify-between p-4 h-[80%]">
    <div class="flex flex-col opacity-0 slidet justify-center xl:w-[32%] ph:w-full sm:w-full text-white text-3xl items-center">
