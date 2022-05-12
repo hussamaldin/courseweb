@@ -3,10 +3,10 @@
                 <div class="w-full text-white flex flex-row overflow-hidden h-[500px] border-b-2 border-teal-500 bg-teal-700">
         <div class="w-[50%] h-full flex justify-center sm:justify-start items-center"><div class="ph:text-xl xl:text-7xl sm:text-3xl">Portofilio</div></div>
         <div class="w-[50%] h-full relative">
-          <svg class="absolute z-0 top-[130px] ph:top-[330px] sm:top-[330px] right-[80px] ph:right-[100px] sm:right-[300px]" width="100" height="200" viewBox="-1 -1 240 300">
+          <svg class="absolute z-0 xl:top-[130px] ph:top-[330px] sm:top-[330px] xl:right-[80px] ph:right-[100px] sm:right-[300px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="black" stroke-width="1" fill="transparent" />
 </svg>
-<svg class="absolute bottom-[80px] ph:bottom-[-150px] sm:bottom-[-150px] z-0 ph:right-[100px] sm:right-[300px]" width="290" height="290" viewBox="-1 -1 240 300">
+<svg class="absolute xl:bottom-[80px] ph:bottom-[-150px] sm:bottom-[-150px] z-0 ph:right-[100px] sm:right-[300px]" width="290" height="290" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
 </svg>
           <img class="mask mask-hexagon-2 absolute bottom-[-50px] left-[130px] w-[400px] h-[400px]" :src="img1" />
@@ -22,30 +22,30 @@
 
 <div class="p-4 w-full">
     <div class="flex flex-row flex-wrap w-full">
-    <div class="w-[30%] ph:w-full sm:w-full mx-3 opacity-0 slidet my-4 flex flex-col border-t-2 border-gray-300">
+    <div class="xl:w-[30%] ph:w-full sm:w-full mx-3 opacity-0 slidet my-4 flex flex-col border-t-2 border-gray-300">
         <div class="text-gray-700 xl:text-4xl ph:text-xl sm:text-2xl my-3">Life Science Investment Opportunities</div>
         <div class="sm:text-2xl ph:text-xl text-gray-500 my-3">2nd Floor, 8 Bloomsbury Street,London, WC1B 3SR</div>
         <div class="my-3"><a class="hover:text-gray-600 underline"><span class="p-2"><i class="fas fa-envelope text-xl text-yellow-500"></i></span>contact@synconaltd.com</a></div>
     </div>
-        <div class="w-[30%] ph:w-full sm:w-full mx-3 opacity-0 slidet my-4 flex flex-col border-t-2 border-gray-300">
+        <div class="xl:w-[30%] ph:w-full sm:w-full mx-3 opacity-0 slidet my-4 flex flex-col border-t-2 border-gray-300">
         <div class="text-gray-700 xl:text-4xl ph:text-xl sm:text-2xl my-3">Life Science Investment Opportunities</div>
         <div class="sm:text-2xl ph:text-xl text-gray-500 my-3">2nd Floor, 8 Bloomsbury Street,London, WC1B 3SR</div>
         <div class="my-3"><a class="hover:text-gray-600 underline"><span class="p-2"><i class="fas fa-phone-alt text-xl text-yellow-500"></i></span>0871 664 0321(UK)</a></div>
         <div class="my-3"><a class="hover:text-gray-600 underline"><span class="p-2"><i class="fas fa-phone-alt text-xl text-yellow-500"></i></span>+44 (0)20 8639 3399(Rest of world)</a></div>
 
     </div>
-        <div class="w-[30%] ph:w-full sm:w-full mx-3 opacity-0 slidet my-4 flex flex-col border-t-2 border-gray-300">
+        <div class="xl:w-[30%] ph:w-full sm:w-full mx-3 opacity-0 slidet my-4 flex flex-col border-t-2 border-gray-300">
         <div class="text-gray-700 xl:text-4xl ph:text-xl sm:text-2xl my-3">Life Science Investment Opportunities</div>
         <div class="sm:text-2xl ph:text-xl text-gray-500 my-3">FTI ConsultingBen Atwell / Natalie Garland-Collins / Tim Stamper</div>
         <div class="my-3"><a class="hover:text-gray-600 underline"><span class="p-2"><i class="fas fa-phone-alt text-xl text-yellow-500"></i></span>+44 (0) 20 3727 1000</a></div>
         <div class="my-3"><a class="hover:text-gray-600 underline"><span class="p-2"><i class="fas fa-envelope text-xl text-yellow-500"></i></span>contact@synconaltd.com</a></div>
     </div>
-            <div class="w-[30%] ph:w-full sm:w-full mx-3 opacity-0 slidet my-4 flex flex-col border-t-2 border-gray-300">
+            <div class="xl:w-[30%] ph:w-full sm:w-full mx-3 opacity-0 slidet my-4 flex flex-col border-t-2 border-gray-300">
         <div class="text-gray-700 xl:text-4xl ph:text-xl sm:text-2xl my-3">Media enquiries</div>
         <div class="xl:text-2xl sm:text-xl ph:text-lg text-gray-500 my-3"><span class="p-2"><i class="fas fa-phone-alt text-xl text-yellow-500"></i></span>020 3981 7909</div>
         <div class="my-3"><a class="hover:text-gray-600 underline"><span class="p-2"><i class="fas fa-envelope text-xl text-yellow-500"></i></span>contact@synconaltd.com</a></div>
     </div>
-            <div class="w-[30%] ph:w-full sm:w-full mx-3 opacity-0 slidet my-4 flex flex-col border-t-2 border-gray-300">
+            <div class="xl:w-[30%] ph:w-full sm:w-full mx-3 opacity-0 slidet my-4 flex flex-col border-t-2 border-gray-300">
         <div class="text-gray-700 xl:text-4xl ph:text-xl sm:text-2xl my-3">Life Science Investment Opportunities</div>
         <div class="sm:text-2xl ph:text-xl text-gray-500 my-3">2nd Floor, 8 Bloomsbury Street,London, WC1B 3SR</div>
         <div class="my-3"><a class="hover:text-gray-600 underline"><span class="p-2"><i class="fas fa-envelope text-xl text-yellow-500"></i></span>contact@synconaltd.com</a></div>
