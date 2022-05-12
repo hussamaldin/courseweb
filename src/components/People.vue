@@ -1,15 +1,15 @@
 <template>
   <div class="w-full h-full">
     <div class="w-full text-white flex flex-row sm:flex-wrap overflow-hidden h-[500px] bg-gray-700">
-        <div class="xl:w-[50%] sm:w-full ph:h-auto h-full sm:h-auto flex justify-start items-center"><div class="text-7xl sm:text-5xl ph:text-2xl">Our People</div></div>
+        <div class="xl:w-[50%] sm:w-full ph:h-auto h-full sm:h-auto flex justify-start items-center"><div class="xl:text-7xl sm:text-5xl ph:text-2xl">Our People</div></div>
         <div class="xl:w-[50%] sm:w-full ph:h-auto h-full sm:h-auto relative">
-          <svg class="absolute z-0 top-[130px] ph:top-[350px] sm:top-[130px] ph:right-[-150px] sm:right-[10px] right-[10px]" width="100" height="200" viewBox="-1 -1 240 300">
+          <svg class="absolute z-0 xl:top-[130px] ph:top-[350px] sm:top-[130px] ph:right-[-150px] sm:right-[10px] xl:right-[10px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="black" stroke-width="1" fill="transparent" />
 </svg>
-<svg class="absolute bottom-[80px] ph:bottom-[-140px] sm:bottom-[80px] z-0 right-[350px] ph:right-[-160px] sm:right-[350px]" width="290" height="290" viewBox="-1 -1 240 300">
+<svg class="absolute xl:bottom-[80px] ph:bottom-[-140px] sm:bottom-[80px] z-0 sm:right-[350px] ph:right-[-160px] xl:right-[350px]" width="290" height="290" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
 </svg>
-          <img class="mask mask-hexagon-2 absolute bottom-[-50px] ph:bottom-[-130px] sm:bottom-[-50px] left-[130px] ph:left-[-20px] sm:left-[130px] w-[400px] h-[400px]" :src="img2" />
+          <img class="mask mask-hexagon-2 absolute xl:bottom-[-50px] ph:bottom-[-130px] sm:bottom-[-50px] xl:left-[130px] ph:left-[-20px] sm:left-[130px] w-[400px] h-[400px]" :src="img2" />
         </div>
 
     </div>
@@ -162,8 +162,8 @@
         <div class="bg-gray-700 opacity-0 slidet  w-full h-[500px] my-4 p-4">
   <div class="flex justify-center text-white p-4 text-3xl"><div>RELATED CONTENT</div></div>
   <div class="flex flex-row ph:flex-wrap sm:flex-wrap justify-between p-4 h-[90%]">
-   <div class="flex justify-center ph:w-full sm:w-full xl:w-[50%] ph:border-t text-white sm:border-t xl:border-t-0 border-gray-300 text-5xl items-center"><div><a class="hover:text-white hover:underline duration-500">Portfolio</a></div></div>
-   <div class="flex justify-center ph:w-full sm:w-full xl:w-[50%] ph:border-t sm:border-t xl:border-t-0 xl:border-l border-gray-300  text-white text-5xl items-center duration-500"><div><a class="hover:text-white hover:underline duration-500">Investors</a></div></div>
+   <div class="flex justify-center ph:w-full sm:w-full xl:w-[50%] ph:border-t text-white sm:border-t xl:border-t-0 border-gray-300 ph:text-2xl sm:text-5xl items-center"><div><a class="hover:text-white hover:underline duration-500">Portfolio</a></div></div>
+   <div class="flex justify-center ph:w-full sm:w-full xl:w-[50%] ph:border-t sm:border-t xl:border-t-0 xl:border-l border-gray-300  text-white ph:text-2xl sm:text-5xl items-center duration-500"><div><a class="hover:text-white hover:underline duration-500">Investors</a></div></div>
   </div>
 </div>
     </div>
