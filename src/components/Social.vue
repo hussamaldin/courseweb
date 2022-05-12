@@ -1,12 +1,12 @@
 <template>
   <div>
            <div class="w-full text-white flex flex-row overflow-hidden h-[500px] bg-teal-700">
-        <div class="w-[60%] h-full flex justify-center items-center"><div class="text-6xl sm:text-2xl ph:text-lg">Our social impact</div></div>
+        <div class="w-[60%] h-full flex justify-center items-center"><div class="xl:text-6xl sm:text-2xl ph:text-lg">Our social impact</div></div>
         <div class="w-[50%] h-full relative">
-          <svg class="absolute z-0 ph:top-[250px]  top-[130px] right-[80px]" width="100" height="200" viewBox="-1 -1 240 300">
+          <svg class="absolute z-0 ph:top-[250px]  xl:top-[130px] xl:right-[80px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
 </svg>
-<svg class="absolute ph:bottom-[-110px] ph:right-[-100px] bottom-[10px] z-0 right-[100px]" width="320" height="320" viewBox="-1 -1 240 300">
+<svg class="absolute ph:bottom-[-110px] ph:right-[-100px] xl:bottom-[10px] z-0 xl:right-[100px]" width="320" height="320" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="orange" stroke-width="2" fill="transparent" />
 </svg>
         </div>
@@ -14,7 +14,7 @@
 <!--Pagecontent-->
 <div class="flex flex-col">
 
-<div class="p-4 w-full h-[650px] ph:h-auto sm:h-auto">
+<div class="p-4 w-full xl:h-[650px] ph:h-auto sm:h-auto">
   <div class="flex flex-row ph:flex-wrap sm:flex-wrap h-full justify-between items-center p-4">
         <div class="ph:w-full sm:w-full xl:w-[47%] opacity-0 slidet">
           <img :src="img2" class="w-full h-full">
@@ -29,7 +29,7 @@
 </div>
 
 <div class="p-4 w-full flex justify-center">
-    <div class="ph:text-lg sm:text-xl leading-8 xl:p-4 sm:p-2 w-[70%] h:w-[90%] sm:w-[60%]">
+    <div class="ph:text-lg sm:text-xl leading-8 xl:p-4 sm:p-2 xl:w-[70%] h:w-[90%] sm:w-[60%]">
         <div class=" opacity-0 slidet">These companies support the UK life science sector, providing jobs, developing the next generation of industry practitioners, advancing the knowledge economy and in doing so strengthen the foundation for the success of our future businesses. Our charitable commitment allows us to support patients, their families and research institutions beyond our core activities.</div>
 
                 <div class="flex flex-col  py-[100px] space-y-4">
@@ -47,7 +47,7 @@
 </div>
 
       
-        <div class="bg-gray-700 w-full h-[500px] ph:h-auto sm:h-auto mt-4 p-4">
+        <div class="bg-gray-700 w-full xl:h-[500px] ph:h-auto sm:h-auto mt-4 p-4">
   <div class="flex justify-center text-white font-bold p-4 ph:text-lg sm:text-2xl opacity-0 slidet"><div>KEY SUSTAINABILITY PILLARS</div></div>
   <div class="flex flex-row ph:flex-wrap sm:flex-wrap justify-between ph:justify-center sm:justify-center p-4 h-[80%]">
    <div class="flex flex-col justify-center xl:w-[32%] ph:w-[100%] sm:w-[60%] text-white text-3xl items-center opacity-0 slidet">

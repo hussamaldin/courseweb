@@ -15,8 +15,8 @@
 <!--PageContent-->
 <div class="flex flex-col">
           <div class="w-full xl:h-[400px] ph:h-auto sm:h-auto p-4 flex flex-row ph:flex-wrap sm:flex-wrap xl:flex-nowrap">
-        <div class="sm:text-4xl ph:text-xl opacity-0 slidet ph:w-full sm:w-full w-[50%] p-4 text-gray-600">We invest to extend and enhance human life</div>
-        <div class="ph:w-full sm:w-full w-[50%] opacity-0 slidet sm:text-xl ph:text-sm text-gray-600 p-4">Our strategy is to create a diversified portfolio of 15-20 globally leading healthcare companies with a goal, over a approval. We focus on
+        <div class="sm:text-4xl ph:text-xl opacity-0 slidet ph:w-full sm:w-full xl:w-[50%] p-4 text-gray-600">We invest to extend and enhance human life</div>
+        <div class="ph:w-full sm:w-full xl:w-[50%] opacity-0 slidet sm:text-xl ph:text-sm text-gray-600 p-4">Our strategy is to create a diversified portfolio of 15-20 globally leading healthcare companies with a goal, over a approval. We focus on
              rolling 10-year basis, of delivering three to five companies in which we retain a significant ownership position to the point of product approval. We focus on globally leading healthcare companies
               developing treatments for patients by working in close partnership with world-class academic founders and management teamsrolling 10-year basis, of delivering three to five .</div>
         
@@ -24,8 +24,8 @@
 
       <div class="w-full xl:h-[550px] ph:h-auto sm:h-auto my-4 bg-gray-700 overflow-hidden">
           <div class="flex flex-row ph:flex-wrap sm:flex-wrap xl:flex-nowrap h-full">
-              <div class="ph:w-full sm:w-full w-[50%] opacity-0 slidet relative flex justify-center items-center translate-x-[-200px]"><img :src="img2" class="mask mask-hexagon-2 ph:w-[500px] ph:h-[500px] w-[900px] h-[900px] sm:w-[700px] sm:h-[700px]"></div>
-              <div class="ph:w-full sm:w-full w-[50%] opacity-0 slidet flex flex-col p-4 justify-center items-center">
+              <div class="ph:w-full sm:w-full xl:w-[50%] opacity-0 slidet relative flex justify-center items-center translate-x-[-200px]"><img :src="img2" class="mask mask-hexagon-2 ph:w-[500px] ph:h-[500px] w-[900px] h-[900px] sm:w-[700px] sm:h-[700px]"></div>
+              <div class="ph:w-full sm:w-full xl:w-[50%] opacity-0 slidet flex flex-col p-4 justify-center items-center">
                   <div class="text-white sm:text-3xl ph:text-xl text-center my-4">“We are committed to managing our business in a sustainable way, investing responsibly and supporting our portfolio companies in making positive contributions to society.”</div>
                   <div class="sm:text-xl ph:text-sm my-4 text-white">MARTIN MURPHY</div>
                   <div class="sm:text-xl ph:text-sm my-4 text-gray-400 text-center">CHIEF EXECUTIVE OFFICER, SYNCONA INVESTMENT MANAGEMENT LIMITED</div>
@@ -35,14 +35,14 @@
 
 <div class="w-full ph:h-auto sm:h-auto p-4 bg-teal-700 my-4">
     <div class="flex flex-row ph:flex-wrap sm:flex-wrap  xl:flex-nowrap justify-between">
-        <div class="text-white tsm:ext-3xl ph:text-xl p-4 font-bold ph:w-full sm:w-full w-[50%] opacity-0 slidet">Key pillars of our Sustainability Policy</div>
-        <div class="text-white sm:text-xl ph:text-sm p-4 sm:w-full ph:w-full w-[50%] opacity-0 slidet">
+        <div class="text-white tsm:ext-3xl ph:text-xl p-4 font-bold ph:w-full sm:w-full xl:w-[50%] opacity-0 slidet">Key pillars of our Sustainability Policy</div>
+        <div class="text-white sm:text-xl ph:text-sm p-4 sm:w-full ph:w-full xl:w-[50%] opacity-0 slidet">
 In FY2020/1, we engaged with our key stakeholders to understand the sustainability issues which are most material to the business. The outcome of the materiality assessment has been used to develop our Sustainability Policy which focuses on four key pillars.</div>
     </div>
     <div class="flex flex-row flex-wrap my-4">
         <div class="flex flex-row xl:w-[45%] ph:w-[100%] sm:w-[90%] opacity-0 slidet m-4 p-2 sm:h-[180px] ph:h-[120px] bg-teal-500 justify-between items-center">
-            <div class="xl:w-[30%] mx-2 flex justify-center items-center">
-                <div class="xl:w-[70%] h-[70%] flex justify-center items-center relative">
+            <div class="w-[30%] mx-2 flex justify-center items-center">
+                <div class="w-[70%] h-[70%] flex justify-center items-center relative">
                     <span class="text-teal-700 font-bold absolute sm:text-4xl ph:text-xl ph:top-[15%] sm:top-[25%] ph:left-[18%] sm:left-[25%]">01</span>
   <svg class="w-full h-full" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="white" />
@@ -54,8 +54,8 @@ In FY2020/1, we engaged with our key stakeholders to understand the sustainabili
 
         </div>
                 <div class="flex flex-row xl:w-[45%] ph:w-[100%] sm:w-[90%] opacity-0 slidet m-4 p-2 sm:h-[180px] ph:h-[120px] bg-teal-500 justify-between items-center">
-            <div class="xl:w-[33%] mx-2 flex justify-center items-center">
-                <div class="xl:w-[60%] h-[60%] flex justify-center items-center relative">
+            <div class="w-[33%] mx-2 flex justify-center items-center">
+                <div class="w-[60%] h-[60%] flex justify-center items-center relative">
                     <span class="text-teal-700 font-bold absolute sm:text-4xl ph:text-xl ph:top-[15%] sm:top-[25%] ph:left-[18%] sm:left-[25%]">02</span>
   <svg class="w-full h-full" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="white" />
@@ -223,7 +223,7 @@ In FY2020/1, we engaged with our key stakeholders to understand the sustainabili
 
 <div class="p-4 w-full xl:h-[650px] ph:h-auto sm:h-auto">
   <div class="flex flex-row ph:flex-wrap sm:flex-wrap xl:flex-nowrap h-full justify-between items-center p-4">
-        <div class="ph:w-full sm:w-full w-[47%] opacity-0 slidet">
+        <div class="ph:w-full sm:w-full xl:w-[47%] opacity-0 slidet">
           <img :src="img3" class="w-full h-full">
     </div>
     <div class="ph:w-full sm:w-full xl:w-[45%] h-[80%] opacity-0 slidet flex flex-col justify-center items-center">
@@ -259,7 +259,7 @@ In FY2020/1, we engaged with our key stakeholders to understand the sustainabili
 
 <div class="p-4 w-full xl:h-[650px] ph:h-auto sm:h-auto">
   <div class="flex flex-row ph:flex-wrap sm:flex-wrap xl:flex-nowrap h-full justify-between items-center p-4">
-    <div class="ph:w-full sm:w-full ph:order-2 sm:order-2 w-[45%] opacity-0 slidet h-[80%] flex flex-col justify-center items-center">
+    <div class="ph:w-full sm:w-full ph:order-2 sm:order-2 xl:w-[45%] opacity-0 slidet h-[80%] flex flex-col justify-center items-center">
       <div class="w-[85%] text-gray-700">
       <div class="xl:text-3xl ph:text-xl text-left font-bold my-4">Making a positive contribution</div>
       <div class="xl:text-lg ph:text-sm text-left my-4">We are committed to managing our business in a sustainable way, investing responsibly, and supporting our portfolio companies in making positive contributions to society by developing treatments that will make a difference to the lives of patients and their families.</div>
