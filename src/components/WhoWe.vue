@@ -1,21 +1,21 @@
 <template>
   <div class="w-full h-full">
           <div class="w-full text-white flex flex-row sm:flex-wrap overflow-hidden h-[500px] bg-gray-700">
-        <div class="sm:w-full xl:w-[50%] h-full sm:h-auto flex justify-center sm:justify-start items-center"><div class="text-7xl sm:text-5xl">Whoe We Are</div></div>
+        <div class="sm:w-full xl:w-[50%] h-full sm:h-auto flex justify-center sm:justify-start items-center"><div class="xl:text-7xl sm:text-5xl">Whoe We Are</div></div>
         <div class="sm:w-full xl:w-[50%] h-full sm:h-auto relative">
-          <svg class="absolute z-0 top-[130px] sm:top-[50px] right-[80px]sm:right-[10px]" width="100" height="200" viewBox="-1 -1 240 300">
+          <svg class="absolute z-0 xl:top-[130px] sm:top-[50px] xl:right-[80px] sm:right-[10px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="black" stroke-width="1" fill="transparent" />
 </svg>
-<svg class="absolute bottom-[80px] sm:bottom-[10px] z-0 right-[350px] sm:right-[310px]" width="290" height="290" viewBox="-1 -1 240 300">
+<svg class="absolute xl:bottom-[80px] sm:bottom-[10px] z-0 xl:right-[350px] sm:right-[310px]" width="290" height="290" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
 </svg>
-          <img class="mask mask-hexagon-2 absolute bottom-[-50px] sm:bottom-[-100px] left-[130px] sm:left-[180px] w-[400px] h-[400px]" :src="img1" />
+          <img class="mask mask-hexagon-2 absolute xl:bottom-[-50px] sm:bottom-[-100px] xl:left-[130px] sm:left-[180px] w-[400px] h-[400px]" :src="img1" />
         </div>
     </div>
       <!--Pagecontent-->
       <div>
           
-<div class="p-4 w-full h-[650px] sm:h-auto">
+<div class="p-4 w-full xl:h-[650px] sm:h-auto">
   <div class="flex flex-row sm:flex-wrap h-full justify-between items-center opacity-0 slidet p-4">
         <div class="sm:w-full xl:w-[47%]">
           <img :src="img3" class="w-full h-full">
@@ -35,7 +35,7 @@
 </div>
 
 <div class="flex justify-center text-center w-full my-4 p-4">
-    <div class="w-[50%] sm:w-[95%] text-gray-700 text-xl p-4 opacity-0 slidet">
+    <div class="xl:w-[50%] sm:w-[95%] text-gray-700 text-xl p-4 opacity-0 slidet">
               In October 2021 we became a signatory to the United Nations Principles for Responsible 
           Investment (PRI). The PRI is recognised as the world's leading network for investors who
            are committed to integrating sustainability factors into their investment and stewardship
@@ -63,7 +63,7 @@
     </div>
 </div>
 
-<div class="p-4 w-full h-[700px] sm:h-auto">
+<div class="p-4 w-full xl:h-[700px] sm:h-auto">
   <div class="flex flex-row sm:flex-wrap justify-between h-full items-center p-4">
     <div class="sm:w-full xl:w-[45%] flex flex-col sm:order-2 justify-center items-center">
       <div class="w-[85%] text-gray-700 opacity-0 slidet">
@@ -119,8 +119,8 @@
         <div class="bg-gray-700  w-full h-[500px] mt-4 p-4">
   <div class="flex justify-center text-white opacity-0 slidet p-4 text-3xl"><div>RELATED CONTENT</div></div>
   <div class="flex flex-row sm:flex-wrap justify-between p-4 h-[90%]">
-   <div class="flex justify-center sm:w-full xl:w-[50%] opacity-0 slidet sm:border-t xl:border-t-0 border-gray-300 text-white text-5xl items-center"><div><a class="hover:text-white hover:underline duration-500">Portofilio</a></div></div>
-   <div class="flex justify-center sm:w-full xl:w-[50%] opacity-0 slidet sm:border-t xl:border-t-0 xl:border-l border-gray-300  text-white text-5xl items-center duration-500"><div><a class="hover:text-white hover:underline duration-500">Investor</a></div></div>
+   <div class="flex justify-center sm:w-full xl:w-[50%] opacity-0 slidet sm:border-t xl:border-t-0 border-gray-300 text-white ph:text-2xl xl:text-5xl items-center"><div><a class="hover:text-white hover:underline duration-500">Portofilio</a></div></div>
+   <div class="flex justify-center sm:w-full xl:w-[50%] opacity-0 slidet sm:border-t xl:border-t-0 xl:border-l border-gray-300  text-white ph:text-2xl xl:text-5xl items-center duration-500"><div><a class="hover:text-white hover:underline duration-500">Investor</a></div></div>
   </div>
 </div>
       </div>
