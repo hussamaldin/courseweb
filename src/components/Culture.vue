@@ -1,7 +1,7 @@
 <template>
     <div>
                  <div class="w-full text-white flex flex-row sm:flex-wrap overflow-hidden h-[500px] border-b-2 border-teal-500 bg-teal-700">
-        <div class="sm:w-full xl:w-[60%] ph:h-auto xl:h-full sm:h-auto absolute ph:top-[200px] sm:top-[200px] flex justify-center sm:justify-start items-center"><div class="text-6xl sm:text-3xl ph:text-xl">Aligning with UN SDGs</div></div>
+        <div class="sm:w-full xl:w-[60%] ph:h-auto xl:h-full sm:h-auto absolute ph:top-[200px] sm:top-[200px] flex justify-center sm:justify-start items-center"><div class="xl:text-6xl sm:text-3xl ph:text-xl">Aligning with UN SDGs</div></div>
         <div class="sm:w-full xl:w-[50%] ph:h-auto xl:h-full relative">
           <svg class="absolute z-0 xl:top-[130px] ph:top-[300px] sm:top-[300px] xl:right-[80px] ph:left-[200px] sm:right-[300px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
@@ -155,8 +155,8 @@
         <div class="bg-gray-700 w-full h-[500px] mt-4 p-4">
   <div class="flex justify-center text-white opacity-0 slidet p-4 sm:text-3xl"><div>RELATED CONTENT</div></div>
   <div class="flex flex-row ph:flex-wrap  sm:flex-wrap justify-between p-4 h-[90%]">
-   <div class="flex justify-center ph:w-full sm:w-full xl:w-[50%] opacity-0 ph:border-t sm:border-t xl:border-t-0 border-gray-300 slidet text-white ph:text-2xl sm:text-5xl items-center"><div><a class="hover:text-white hover:underline duration-500">Who we are</a></div></div>
-   <div class="flex justify-center ph:w-full sm:w-full xl:w-[50%] opacity-0 slidet ph:border-t sm:border-t xl:border-t-0 xl:border-l border-gray-300 ph:text-2xl text-white sm:text-5xl items-center duration-500"><div><a class="hover:text-white hover:underline duration-500">The Syncona platform</a></div></div>
+   <div class="flex justify-center ph:w-full sm:w-full xl:w-[50%] opacity-0 ph:border-t sm:border-t xl:border-t-0 border-gray-300 slidet text-white ph:text-2xl xl:text-5xl items-center"><div><a class="hover:text-white hover:underline duration-500">Who we are</a></div></div>
+   <div class="flex justify-center ph:w-full sm:w-full xl:w-[50%] opacity-0 slidet ph:border-t sm:border-t xl:border-t-0 xl:border-l border-gray-300 ph:text-2xl text-white xl:text-5xl items-center duration-500"><div><a class="hover:text-white hover:underline duration-500">The Syncona platform</a></div></div>
   </div>
 </div>
     </div>
