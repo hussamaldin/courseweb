@@ -6,8 +6,6 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
-      'ph': '360px',
-      // => @media (min-width: 360px) { ... }
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 
@@ -24,6 +22,11 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {   
+      screens: {
+        'ph': '360px',
+        // => @media (min-width: 360px) { ... }
+
+      },
          colors: {
       'teal': colors.teal,
       cyan: colors.cyan,
