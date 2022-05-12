@@ -3,10 +3,10 @@
     <div class="w-full text-white flex flex-row sm:flex-wrap overflow-hidden h-[500px] border-b-2 border-teal-500 bg-teal-700">
         <div class="xl:w-[50%] sm:w-full h-full sm:h-auto flex justify-center sm:justify-start items-center"><div class="text-7xl sm:text-5xl">About Us</div></div>
         <div class="xl:w-[50%] sm:w-full h-full sm:h-auto relative">
-          <svg class="absolute z-0 top-[130px] sm:top-[50px] right-[80px] sm:right-[10px]" width="100" height="200" viewBox="-1 -1 240 300">
+          <svg class="absolute z-0 xl:top-[130px] sm:top-[50px] right-[80px] sm:right-[10px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="black" stroke-width="1" fill="transparent" />
 </svg>
-<svg class="absolute bottom-[80px] sm:bottom-[10px] ph:bottom-[-100px] z-0 right-[350px] ph:right-[30px] sm:right-[310px]" width="290" height="290" viewBox="-1 -1 240 300">
+<svg class="absolute xl:bottom-[80px] sm:bottom-[10px] ph:bottom-[-100px] z-0 xl:right-[350px] ph:right-[30px] sm:right-[310px]" width="290" height="290" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
 </svg>
           <img class="mask mask-hexagon-2 absolute bottom-[-50px] ph:bottom-[50px] ph:z-1  sm:bottom-[-100px] left-[130px] ph:left-[10px] sm:left-[180px] w-[400px] h-[400px] ph:w-[300px] ph:h-[300px]" :src="img1" />
@@ -78,7 +78,7 @@
       <div class="w-[85%] text-gray-700">
       <div class="sm:text-3xl ph:text-xl text-left font-bold my-4">Making a positive contribution</div>
       <div class="sm:text-lg ph:text-sm text-left my-4">We are committed to managing our business in a sustainable way, investing responsibly, and supporting our portfolio companies in making positive contributions to society by developing treatments that will make a difference to the lives of patients and their families.</div>
-      <div class="flex justify-start sm:justify-center my-4"><div class="w-[370px] duration-500 my-4 border-2 hover:bg-yellow-500 group flex flex-row justify-around items-center p-2 border-yellow-500 rounded-full text-yellow-500"><span class="text-xl ph:text-sm mx-2 group-hover:text-white">PURPOSE, CULTURE AND VALUES</span><span><i class="fa fa-arrow-right group-hover:text-white text-lg"></i></span></div></div>
+      <div class="flex justify-start sm:justify-center my-4"><div class="w-[370px] duration-500 my-4 border-2 hover:bg-yellow-500 group flex flex-row justify-around items-center p-2 border-yellow-500 rounded-full text-yellow-500"><span class="sm:text-xl ph:text-sm mx-2 group-hover:text-white">PURPOSE, CULTURE AND VALUES</span><span><i class="fa fa-arrow-right group-hover:text-white text-lg"></i></span></div></div>
       </div>
     </div>
             <div class="sm:w-full ph:w-full xl:order-none ph:order-1 sm:order-1 xl:w-[47%] opacity-0 slidet">
