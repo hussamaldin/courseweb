@@ -25,30 +25,30 @@
         <div class="flex justify-center opacity-0 slidet text-white sm:text-xl ph:text-lg"><div>OUR BUSINESS IN NUMBERS*</div></div>
         <div class="flex flex-col justify-center p-4">
           <div class="flex flex-row xl:flex-nowrap ph:flex-wrap justify-center my-4 p-4">
-            <div class=" w-[30%] ph:w-full opacity-0 slidet mx-2 flex flex-col">
+            <div class=" sm:w-[30%] ph:w-full opacity-0 slidet mx-2 flex flex-col">
               <div class="sm:text-5xl ph:text-3xl text-gray-300 border-b-2 border-white p-2">11</div>
               <div class="sm:text-xl ph:text-lg p-2">portfolio companies</div>
             </div>
-            <div class="w-[30%] ph:w-full opacity-0 slidet mx-2 flex flex-col">
+            <div class="sm:w-[30%] ph:w-full opacity-0 slidet mx-2 flex flex-col">
               <div class="sm:text-5xl ph:text-3xl text-gray-300 border-b-2 border-white p-2">£843m</div>
               <div class="sm:text-xl ph:text-lg p-2">value of life science portfolio</div>
             </div>
-              <div class=" w-[30%] ph:w-full opacity-0 slidet mx-2 flex flex-col">
+              <div class=" sm:w-[30%] ph:w-full opacity-0 slidet mx-2 flex flex-col">
               <div class="sm:text-5xl ph:text-3xl text-gray-300 border-b-2 border-white p-2">£497m</div>
               <div class="sm:text-xl ph:text-lg p-2">capital pool</div>
             </div>
             
           </div>
           <div class="flex flex-row xl:flex-nowrap ph:flex-wrap justify-center my-4 p-4">
-            <div class=" w-[30%] ph:w-full opacity-0 slidet mx-2 flex flex-col">
+            <div class=" sm:w-[30%] ph:w-full opacity-0 slidet mx-2 flex flex-col">
               <div class="sm:text-5xl ph:text-3xl border-b-2 border-white p-2">14</div>
               <div class="sm:text-xl ph:text-lg p-2">members of the investment team</div>
             </div>
-            <div class="w-[30%] ph:w-full opacity-0 slidet mx-2 flex flex-col">
+            <div class="sm:w-[30%] ph:w-full opacity-0 slidet mx-2 flex flex-col">
               <div class="sm:text-5xl ph:text-3xl border-b-2 border-white p-2">79%</div>
               <div class="sm:text-xl ph:text-lg p-2">investment team with PhDs/MDs</div>
             </div>
-              <div class=" w-[30%] ph:w-full opacity-0 slidet mx-2 flex flex-col">
+              <div class=" sm:w-[30%] ph:w-full opacity-0 slidet mx-2 flex flex-col">
               <div class="sm:text-5xl ph:text-3xl border-b-2 border-white p-2">16</div>
               <div class="sm:text-xl ph:text-lg p-2">portfolio company board seats</div>
             </div>
@@ -66,7 +66,7 @@
       <div class="w-[85%] text-gray-700">
       <div class="sm:text-3xl ph:text-xl text-left font-bold my-4">Making a positive contribution</div>
       <div class="sm:text-lg ph:text-sm text-left my-4">We are committed to managing our business in a sustainable way, investing responsibly, and supporting our portfolio companies in making positive contributions to society by developing treatments that will make a difference to the lives of patients and their families.</div>
-      <div class="flex justify-start sm:justify-center my-4"><div class="w-[200px] duration-500 my-4 border-2 hover:bg-yellow-500 group flex flex-row justify-around items-center p-2 border-yellow-500 rounded-full text-yellow-500"><span class="text-xl mx-2 font-bold group-hover:text-white">Who We Are</span><span><i class="fa fa-arrow-right group-hover:text-white text-lg"></i></span></div></div>
+      <div class="flex justify-start sm:justify-center my-4"><div class="w-[200px] duration-500 my-4 border-2 hover:bg-yellow-500 group flex flex-row justify-around items-center p-2 border-yellow-500 rounded-full text-yellow-500"><span class="ph:text-sm sm:text-xl mx-2 font-bold group-hover:text-white">Who We Are</span><span><i class="fa fa-arrow-right group-hover:text-white text-lg"></i></span></div></div>
       </div>
     </div>
   </div>
@@ -103,7 +103,7 @@
 
 <div class="p-4 w-full h-[650px] ph:h-auto sm:h-auto">
   <div class="flex flex-row ph:flex-wrap sm:flex-wrap h-full justify-between items-center p-4">
-    <div class="sm:w-full ph:w-full xl:w-[45%] sm:order-2 xl:order-none opacity-0 slidet h-[80%] flex flex-col justify-center items-center">
+    <div class="sm:w-full ph:w-full xl:w-[45%] sm:order-2 xl:order-none opacity-0 slidet xl:h-[80%] flex flex-col justify-center items-center">
       <div class="w-[85%] text-gray-700">
       <div class="sm:text-3xl ph:text-xl text-left font-bold my-4">Making a positive contribution</div>
       <div class="sm:text-lg ph:text-sm text-left my-4">We are committed to managing our business in a sustainable way, investing responsibly, and supporting our portfolio companies in making positive contributions to society by developing treatments that will make a difference to the lives of patients and their families.</div>
@@ -117,7 +117,7 @@
 </div>
 
 <div class="bg-teal-600 w-full h-[500px] flex flex-col justify-center items-center">
-<div class="text-white sm:text-4xl ph:text-xl w-[60%] sm:w-[90%] ph:w-[95%] sm:text-center opacity-0 slidet p-4">“Our strategy is clear. Syncona is building
+<div class="text-white sm:text-4xl ph:text-xl xl:w-[60%] sm:w-[90%] ph:w-[95%] sm:text-center opacity-0 slidet p-4">“Our strategy is clear. Syncona is building
    a sustainable, diversified portfolio of 15-20
     companies over a rolling 10-year period.”</div>
     <div class="flex flex-col justify-center p-4 opacity-0 slidet">

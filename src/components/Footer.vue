@@ -5,8 +5,8 @@
          <div class="text-3xl ph:text-lg text-white ph:text-red-500 my-4">Sign-up for company news alerts</div>
          <div class="text-2xl ph:text-lg text-white my-4">Get the latest RNS, company news, share price information and results from Syncona</div>
          <div class="flex xl:flex-row ph:flex-col my-4">
-                   <div class="flex w-[50%] ph:w-full justify-center mx-2"><div class="ph:w-[80%] duration-500 my-4 bg-yellow-500 hover:bg-white group flex flex-row justify-around items-center text-white p-2 rounded-full"><span class="text-xl ph:text-sm mx-2 font-bold group-hover:text-yellow-500">RNS ALTERS</span><span><i class="fa fa-arrow-right group-hover:text-yellow-500 text-lgxl ph:text-sm"></i></span></div></div>
-                   <div class="flex w-[50%] ph:w-full justify-center mx-2"><div class="ph:w-[80%] duration-500 my-4 bg-yellow-500 hover:bg-white group flex flex-row justify-around items-center text-white p-2 rounded-full"><span class="text-xl ph:text-sm mx-2 font-bold group-hover:text-yellow-500">COMPANY ALTERS</span><span><i class="fa fa-arrow-right group-hover:text-yellow-500 text-lgxl ph:text-sm"></i></span></div></div>
+                   <div class="flex sm:w-[50%] ph:w-full justify-center mx-2"><div class="ph:w-[80%] duration-500 my-4 bg-yellow-500 hover:bg-white group flex flex-row justify-around items-center text-white p-2 rounded-full"><span class="text-xl ph:text-sm mx-2 font-bold group-hover:text-yellow-500">RNS ALTERS</span><span><i class="fa fa-arrow-right group-hover:text-yellow-500 text-lgxl ph:text-sm"></i></span></div></div>
+                   <div class="flex sm:w-[50%] ph:w-full justify-center mx-2"><div class="ph:w-[80%] duration-500 my-4 bg-yellow-500 hover:bg-white group flex flex-row justify-around items-center text-white p-2 rounded-full"><span class="text-xl ph:text-sm mx-2 font-bold group-hover:text-yellow-500">COMPANY ALTERS</span><span><i class="fa fa-arrow-right group-hover:text-yellow-500 text-lgxl ph:text-sm"></i></span></div></div>
          </div>
        </div>
        <div class="flex flex-col xl:w-[29%] ph:w-full sm:mx-4">
