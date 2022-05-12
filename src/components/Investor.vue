@@ -46,30 +46,30 @@
         <div class="flex justify-center text-white opacity-0 slidet ph:text-lg sm:text-2xl"><div>OUR BUSINESS IN NUMBERS*</div></div>
         <div class="flex flex-col justify-center p-4">
           <div class="flex flex-row xl:flex-nowrap ph:flex-wrap justify-center my-4 p-4">
-            <div class=" xl:w-[30%] ph:w-full mx-2 flex flex-col">
+            <div class="sm:w-[30%] ph:w-full mx-2 flex flex-col">
               <div class="ph:text-2xl sm:text-5xl text-gray-300 border-b-2 border-white p-4">11</div>
               <div class="ph:text-sm sm:text-xl p-4">portfolio companies</div>
             </div>
-            <div class="xl:w-[30%] ph:w-full mx-2 flex flex-col">
+            <div class="sm:w-[30%] ph:w-full mx-2 flex flex-col">
               <div class="ph:text-2xl sm:text-5xl text-gray-300 border-b-2 border-white p-4">£843m</div>
               <div class="ph:text-sm sm:text-xl p-4">value of life science portfolio</div>
             </div>
-              <div class=" xl:w-[30%] ph:w-full mx-2 flex flex-col">
+              <div class=" sm:w-[30%] ph:w-full mx-2 flex flex-col">
               <div class="ph:text-2xl sm:text-5xl text-gray-300 border-b-2 border-white p-4">£497m</div>
               <div class="ph:text-sm sm:text-xl p-4">capital pool</div>
             </div>
             
           </div>
           <div class="flex flex-row xl:flex-nowrap ph:flex-wrap justify-center my-4 p-4">
-            <div class=" xl:w-[30%] ph:w-full mx-2 flex flex-col">
+            <div class=" sm:w-[30%] ph:w-full mx-2 flex flex-col">
               <div class="ph:text-2xl sm:text-5xl border-b-2 border-white p-4">14</div>
               <div class="ph:text-sm sm:text-xl p-4">members of the investment team</div>
             </div>
-            <div class="xl:w-[30%] ph:w-full mx-2 flex flex-col">
+            <div class="sm:w-[30%] ph:w-full mx-2 flex flex-col">
               <div class="ph:text-2xl sm:text-5xl border-b-2 border-white p-4">79%</div>
               <div class="ph:text-sm sm:text-xl p-4">investment team with PhDs/MDs</div>
             </div>
-              <div class=" xl:w-[30%] ph:w-full mx-2 flex flex-col">
+              <div class="sm:w-[30%] ph:w-full mx-2 flex flex-col">
               <div class="ph:text-2xl sm:text-5xl border-b-2 border-white p-4">16</div>
               <div class="ph:text-sm sm:text-xl p-4">portfolio company board seats</div>
             </div>
