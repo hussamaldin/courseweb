@@ -445,15 +445,15 @@
     <div class="flex flex-col h-[500px] my-4">
     <div class="flex slidet opacity-0 justify-center text-blue-400 ph:text-sm sm:text-xl my-4"><div>LEADERSHIP KEY FACTS*</div></div>
     <div class="flex slidet opacity-0 flex-row xl:flex-nowrap  ph:flex-wrap my-4">
-      <div class="flex flex-col w-[30%] ph:w-full mx-2 p-2">
+      <div class="flex flex-col sm:w-[30%] ph:w-full mx-2 p-2">
         <div class="ph:text-4xl ph:text-center sm:text-6xl border-b-2 border-gray-400 p-2 text-blue-400">12</div>
         <div class="ph:text-xl sm:text-2xl text-blue-900 p-2">members of the investment team</div>
       </div>
-      <div class="flex slidet opacity-0 flex-col ph:w-full w-[30%] mx-2 p-2">
+      <div class="flex slidet opacity-0 flex-col ph:w-full sm:w-[30%] mx-2 p-2">
         <div class="ph:text-4xl sm:text-6xl ph:text-center border-b-2 border-gray-400 p-2 text-blue-400">274+</div>
         <div class="ph:text-xl sm:text-2xl text-blue-900 p-2">members of the investment team</div>
       </div>
-      <div class="flex slidet opacity-0 flex-col ph:w-full w-[30%] mx-2 p-2">
+      <div class="flex slidet opacity-0 flex-col ph:w-full sm:w-[30%] mx-2 p-2">
         <div class="ph:text-4xl sm:text-6xl ph:text-center border-b-2 border-gray-400 p-2 text-blue-400">79%</div>
         <div class="ph:text-xl sm:text-2xl text-blue-900 p-2">members of the investment team</div>
       </div>
