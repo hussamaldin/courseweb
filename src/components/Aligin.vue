@@ -1,19 +1,19 @@
 <template>
   <div>
                  <div class="w-full text-white flex flex-row overflow-hidden h-[500px] bg-gray-700">
-        <div class="w-[60%] h-full flex justify-center items-center"><div class="text-6xl sm:text-3xl ph:text-lg">Aligning with UN SDGs</div></div>
+        <div class="w-[60%] h-full flex justify-center items-center"><div class="xl:text-6xl sm:text-3xl ph:text-lg">Aligning with UN SDGs</div></div>
         <div class="w-[50%] h-full relative">
-          <svg class="absolute z-0 top-[130px] ph:top-[310px] sm:top-[310px] right-[80px] ph:right-[100px] sm:right-[280px]" width="100" height="200" viewBox="-1 -1 240 300">
+          <svg class="absolute z-0 xl:top-[130px] ph:top-[310px] sm:top-[310px] xl:right-[80px] ph:right-[100px] sm:right-[280px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
 </svg>
-<svg class="absolute bottom-[10px] sm:bottom-[-100px] ph:bottom-[-100px] z-0 right-[100px] sm:right-[280px] ph:right-[-50px]" width="320" height="320" viewBox="-1 -1 240 300">
+<svg class="absolute xl:bottom-[10px] sm:bottom-[-100px] ph:bottom-[-100px] z-0 xl:right-[100px] sm:right-[280px] ph:right-[-50px]" width="320" height="320" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="orange" stroke-width="2" fill="transparent" />
 </svg>
         </div>
     </div>
 <!--pagecontent-->
     <div class="flex flex-col">
-                  <div class="w-full h-[400px] ph:h-auto sm:h-auto bg-gray-200 p-4 flex flex-row ph:flex-wrap sm:flex-wrap">
+                  <div class="w-full xl:h-[400px] ph:h-auto sm:h-auto bg-gray-200 p-4 flex flex-row ph:flex-wrap sm:flex-wrap">
         <div class="sm:text-4xl  ph:text-xl ph:w-full sm:w-full xl:w-[50%] opacity-0 slidet p-4 text-gray-600">We use a number of key performance indicators (KPIs) to assess progress against our strategic objectives, both financial and non-financial</div>
         <div class="sm:w-full  ph:w-full xl:w-[50%] opacity-0 slidet ph:text-lg sm:text-xl text-gray-600 p-4">As part of our commitment to enhanced narrative reporting, we have carried out a review of the Company’s key performance indicators (KPIs), ensuring that they are aligned with the core pillars of our strategy, how we measure progress against these, and how we manage risk. Based on this exercise, we have updated our KPIs, outlined below, looking at both financial and non-financial metrics. These are not specific targets, but metrics that are reported on each year to show progression of the business and reflect the nature of the asset class.</div>
         
@@ -51,7 +51,7 @@
 
 
 <div class="w-full flex justify-center">
-    <div class="w-[65%] ph:w-[90%] sm:w-[80%]">
+    <div class="xl:w-[65%] ph:w-[90%] sm:w-[80%]">
         <div class="my-4">
             <div class="sm:text-3xl ph:text-xl text-gray-700 my-4 font-bold opacity-0 slidet">Aligning to Sustainable Development Goals</div>
             <div class="sm:text-xl ph:text-sm my-4 opacity-0 slidet">The UN’s 17 Sustainable Development Goals (SDGs), adopted by the member states in 2015, represent a call to action to end poverty, protect the planet and ensure that all people enjoy peace and prosperity by 2030. Achieving them is fundamental to future global economic and business growth – the Business & Sustainable Development Commission concluded that achieving the goals will create market opportunities of at least $12 trillion a year.
@@ -161,7 +161,7 @@ Our linkages to specific SDGs are illustrated throughout the Environmental, Soci
     </div>
 </div>
 
-      <div class="w-full h-[550px] ph:h-auto sm:h-auto my-4 bg-gray-700 overflow-hidden">
+      <div class="w-full xl:h-[550px] ph:h-auto sm:h-auto my-4 bg-gray-700 overflow-hidden">
           <div class="flex flex-row ph:flex-wrap sm:flex-wrap h-full">
               <div class=" ph:w-full sm:w-full xl:w-[50%] opacity-0 slidet relative flex justify-center items-center translate-x-[-130px]"><img :src="img2" class="mask mask-hexagon-2 w-[900px] ph:w-[500px] ph:h-[400px] sm:w-[700px] sm:h-[700px] h-[900px]"></div>
               <div class="sm:w-full ph:w-full xl:w-[50%] opacity-0 slidet flex flex-col p-4 justify-center items-center">
