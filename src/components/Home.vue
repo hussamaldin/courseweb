@@ -2,14 +2,14 @@
   <div class="w-full h-full ">
     <div class="w-full h-[700px] ph:h-[600px] relative border-b-2 border-gray-200">
       <div class="mySlides w-full h-[100%] block bg-blue-600 pt-[100px] z-10 absolute top-0 left-0 overflow-hidden">
-<img class="mask mask-hexagon absolute bottom-[-100px] ph:w-[320px] ph:h-[320px] sm:w-[420px] sm:h-[420px] right-[10px] w-[600px] h-[600px]" :src="img1" />
-<svg class="absolute z-0 top-[80px] ph:top-[300px] sm:top-[150px]  right-[50px]" width="190" height="290" viewBox="-1 -1 240 300">
+<img class="mask mask-hexagon absolute xl:bottom-[-100px] ph:w-[320px] ph:h-[320px] sm:w-[420px] sm:h-[420px] xl:right-[10px] w-[600px] h-[600px]" :src="img1" />
+<svg class="absolute z-0 xl:top-[80px] ph:top-[300px] sm:top-[150px]  right-[50px]" width="190" height="290" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
 </svg>
-<svg class="absolute bottom-[80px] sm:bottom-[20px] ph:w-[300px] ph:h-[300px] sm:w-[350px] sm:h-[350px] z-0 sm:right-[200px] right-[350px]" width="390" height="490" viewBox="-1 -1 240 300">
+<svg class="absolute xl:bottom-[80px] sm:bottom-[20px] ph:w-[300px] ph:h-[300px] sm:w-[350px] sm:h-[350px] z-0 sm:right-[200px] xl:right-[350px]" width="390" height="490" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="lime" stroke-width="1" fill="transparent" />
 </svg>
-<div class="absolute top-[100px] ph:top-[160px] xl:top-[200px] ph:w-[300px] sm:w-[450px] left-[50px]">
+<div class="absolute xl:top-[100px] ph:top-[160px] xl:top-[200px] ph:w-[300px] sm:w-[450px] xl:left-[50px]">
   <div class="ph:text-xl sm:text-3xl text-white">
     Our team members are experts at what they do
   </div>
@@ -17,14 +17,14 @@
 </div>
       </div>
             <div class="mySlides w-full h-[100%] block bg-gray-200 pt-[100px] z-20 absolute top-0 left-0 overflow-hidden">
-<img class="mask mask-hexagon z-20 absolute bottom-[-100px] ph:w-[320px] ph:h-[320px] sm:w-[420px] sm:h-[420px] right-[10px] w-[600px] h-[600px]" :src="img2" />
+<img class="mask mask-hexagon z-20 absolute xl:bottom-[-100px] ph:w-[320px] ph:h-[320px] sm:w-[420px] sm:h-[420px] xl:right-[10px] w-[600px] h-[600px]" :src="img2" />
 <svg class="absolute z-0 top-[80px] ph:top-[300px] sm:top-[300px] sm:w-[200px] sm:h-[200px] right-[40px]" width="190" height="290" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="blue" stroke-width="1" fill="transparent" />
 </svg>
-<svg class="absolute bottom-[40px] sm:bottom-[10px] w-[450px] h-[450px] sm:w-[270px] sm:h-[290px] z-30 sm:right-[300px] right-[350px]"  viewBox="-1 -1 240 300">
+<svg class="absolute xl:bottom-[40px] sm:bottom-[10px] w-[450px] h-[450px] sm:w-[270px] sm:h-[290px] z-30 sm:right-[300px] xl:right-[350px]"  viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="yellow" stroke-width="1" fill="transparent" />
 </svg>
-<div class="absolute top-[100px] ph:top-[160px] xl:top-[200px] ph:w-[300px] sm:w-[450px] left-[50px]">
+<div class="absolute xl:top-[100px] ph:top-[160px] xl:top-[200px] ph:w-[300px] sm:w-[450px] xl:left-[50px]">
   <div class="ph:text-2xl sm:text-5xl text-gray-500">
     Our team members are experts at what they do
   </div>
@@ -33,13 +33,13 @@
       </div>
             <div class="mySlides w-full h-[100%] block bg-gray-600 z-30 pt-[100px] absolute top-0 left-0 overflow-hidden">
 <img class="mask mask-hexagon z-10 absolute bottom-[-100px] ph:w-[320px] ph:h-[320px] right-[10px] sm:w-[420px] sm:h-[420px] w-[700px] h-[700px]" :src="img3" />
-<svg class="absolute z-0 top-[80px] ph:top-[300px] sm:top-[300px] ph:w-[200px] ph:h-[200px] sm:w-[250px] sm:h-[250px] right-[40px]" width="190" height="290" viewBox="-1 -1 240 300">
+<svg class="absolute z-0 xl:top-[80px] ph:top-[300px] sm:top-[300px] ph:w-[200px] ph:h-[200px] sm:w-[250px] sm:h-[250px] xl:right-[40px]" width="190" height="290" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="blue" stroke-width="1" fill="transparent" />
 </svg>
-<svg class="absolute bottom-[40px] sm:bottom-[1px] z-20 sm:w-[350px] sm:h-[350px] sm:right-[300px] right-[350px]" width="390" height="490" viewBox="-1 -1 240 300">
+<svg class="absolute xl:bottom-[40px] sm:bottom-[1px] z-20 sm:w-[350px] sm:h-[350px] sm:right-[300px] xl:right-[350px]" width="390" height="490" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
 </svg>
-<div class="absolute top-[100px] ph:top-[160px] xl:top-[200px] ph:w-[300px] sm:w-[450px] left-[50px]">
+<div class="absolute xl:top-[100px] ph:top-[160px] xl:top-[200px] ph:w-[300px] sm:w-[450px] xl:left-[50px]">
   <div class="ph:text-2xl sm:text-5xl text-white">
     A differentiated and diversified portfolio of life science companies 
   </div>
@@ -52,7 +52,7 @@
 
 <div class=" w-full flex flex-col mt-2">
   <div class="flex  w-full h-[500px] justify-center items-center">
-    <div class="w-[50%] ph:w-[90%] sm:w-[70%] flex flex-col justify-center space-y-4">
+    <div class="xl:w-[50%] ph:w-[90%] sm:w-[70%] flex flex-col justify-center space-y-4">
           <div class="text-gray-500 my-4 text-center ph:text-sm sm:text-lg opacity-0 slidet">BUILDING THE NEXT GENERATION OF GLOBAL LEADERS IN LIFE SCIENCE</div>
     <div class="text-gray-500 text-center my-4 opacity-0 slidet  ph:text-sm sm:text-3xl break-words leading-9 font-bold">
        We found, build and fund companies to translate exceptional science
@@ -66,8 +66,8 @@
   <div class="bg-teal-500 w-full xl:h-[650px] ph:h-auto sm:h-auto p-4">
     <div class="flex flex-col w-full p-4 h-full">
       <div class="flex xl:flex-row ph:flex-col sm:flex-col my-4 ph:justify-start sm:justify-start justify-between text-white">
-        <div class=" ph:text-lg sm:text-2xl w-[50%] ph:w-full sm:w-full opacity-0 slidet">Syncona domain expertise</div>
-        <div class="ph:text-sm sm:text-xl w-[50%] ph:w-full sm:w-full opacity-0 slidet">Our deep expertise in four key 
+        <div class=" ph:text-lg sm:text-2xl xl:w-[50%] ph:w-full sm:w-full opacity-0 slidet">Syncona domain expertise</div>
+        <div class="ph:text-sm sm:text-xl xl:w-[50%] ph:w-full sm:w-full opacity-0 slidet">Our deep expertise in four key 
           modalities enables the rapid translation of
            scientific research into companies with the 
            potential to be global leaders and the development
