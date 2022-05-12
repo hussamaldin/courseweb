@@ -2,8 +2,8 @@
   <div class="w-full h-full ">
     <div class="w-full h-[700px] ph:h-[600px] relative border-b-2 border-gray-200">
       <div class="mySlides w-full h-[100%] block bg-blue-600 pt-[100px] z-10 absolute top-0 left-0 overflow-hidden">
-<img class="mask mask-hexagon absolute xl:bottom-[-100px] ph:w-[320px] ph:h-[320px] sm:w-[420px] sm:h-[420px] xl:right-[10px] w-[600px] h-[600px]" :src="img1" />
-<svg class="absolute z-0 xl:top-[80px] ph:top-[300px] sm:top-[150px]  right-[50px]" width="190" height="290" viewBox="-1 -1 240 300">
+<img class="mask mask-hexagon absolute xl:bottom-[-100px] ph:w-[320px] ph:h-[320px] sm:w-[420px] sm:h-[420px] xl:right-[10px] xl:w-[600px] xl:h-[600px]" :src="img1" />
+<svg class="absolute z-0 xl:top-[80px] ph:top-[300px] sm:top-[150px]  xl:right-[50px]" width="190" height="290" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
 </svg>
 <svg class="absolute xl:bottom-[80px] sm:bottom-[20px] ph:w-[300px] ph:h-[300px] sm:w-[350px] sm:h-[350px] z-0 sm:right-[200px] xl:right-[350px]" width="390" height="490" viewBox="-1 -1 240 300">
@@ -17,8 +17,8 @@
 </div>
       </div>
             <div class="mySlides w-full h-[100%] block bg-gray-200 pt-[100px] z-20 absolute top-0 left-0 overflow-hidden">
-<img class="mask mask-hexagon z-20 absolute xl:bottom-[-100px] ph:w-[320px] ph:h-[320px] sm:w-[420px] sm:h-[420px] xl:right-[10px] w-[600px] h-[600px]" :src="img2" />
-<svg class="absolute z-0 top-[80px] ph:top-[300px] sm:top-[300px] sm:w-[200px] sm:h-[200px] right-[40px]" width="190" height="290" viewBox="-1 -1 240 300">
+<img class="mask mask-hexagon z-20 absolute xl:bottom-[-100px] ph:w-[320px] ph:h-[320px] sm:w-[420px] sm:h-[420px] xl:right-[10px] xl:w-[600px] xl:h-[600px]" :src="img2" />
+<svg class="absolute z-0 xl:top-[80px] ph:top-[300px] sm:top-[300px] sm:w-[200px] sm:h-[200px] xl:right-[40px]" width="190" height="290" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="blue" stroke-width="1" fill="transparent" />
 </svg>
 <svg class="absolute xl:bottom-[40px] sm:bottom-[10px] w-[450px] h-[450px] sm:w-[270px] sm:h-[290px] z-30 sm:right-[300px] xl:right-[350px]"  viewBox="-1 -1 240 300">
