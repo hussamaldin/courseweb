@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
                 <div class="w-full text-white flex flex-row overflow-hidden h-[500px] bg-gray-700">
-        <div class="w-[50%] h-full flex justify-center sm:justify-start items-center"><div class="xl:text-7xl sm:text-3xl">KPS</div></div>
+        <div class="w-[50%] h-full flex justify-center sm:justify-start items-center"><div class="xl:text-6xl sm:text-3xl">KPS</div></div>
         <div class="w-[50%] h-full relative">
           <svg class="absolute z-0 xl:top-[130px] sm:top-[250px] xl:right-[80px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="black" stroke-width="1" fill="transparent" />

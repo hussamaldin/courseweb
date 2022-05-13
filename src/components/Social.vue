@@ -1,7 +1,7 @@
 <template>
   <div>
            <div class="w-full text-white flex flex-row overflow-hidden h-[500px] bg-teal-700">
-        <div class="w-[60%] h-full flex justify-center items-center"><div class="xl:text-6xl sm:text-2xl ph:text-lg">Our social impact</div></div>
+        <div class="w-[60%] h-full flex justify-center items-center"><div class="xl:text-5xl sm:text-2xl ph:text-lg">Our social impact</div></div>
         <div class="w-[50%] h-full relative">
           <svg class="absolute z-0 ph:top-[250px]  xl:top-[130px] xl:right-[80px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />

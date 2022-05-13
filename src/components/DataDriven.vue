@@ -1,14 +1,15 @@
 <template>
   <div class="w-full h-full">
                 <div class="w-full text-white flex flex-row sm:flex-wrap overflow-hidden h-[500px] bg-gray-700">
-        <div class="sm:w-full xl:w-[50%] xl:h-full sm:h-auto flex justify-center sm:justify-start sm:absolute sm:top-[250px] items-center"><div class="xl:text-5xl ph:text-xl sm:text-3xl">Data driven investment process</div></div>
+        
         <div class="sm:w-full xl:w-[50%] xl:h-full sm:h-auto relative">
-          <svg class="absolute z-0 xl:top-[130px] sm:top-[300px] ph:top-[300px] xl:right-[80px] sm:left-[150px]" width="100" height="200" viewBox="-1 -1 240 300">
+          <svg class="absolute z-0 xl:top-[280px] sm:top-[300px] ph:top-[300px] xl:right-[80px] sm:left-[150px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="black" stroke-width="1" fill="transparent" />
 </svg>
 <svg class="absolute xl:bottom-[10px] ph:top-[350px] sm:top-[350px] z-0 xl:right-[100px] ph:left-[-200px] sm:left-[100px]" width="320" height="320" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="orange" stroke-width="2" fill="transparent" />
 </svg>
+ <div class="sm:w-full ph:w-[300px] xl:w-[80%] xl:h-full sm:h-auto flex justify-center sm:justify-start ph:absolute sm:absolute  ph:top-[130px] xl:top-[-30px] sm:top-[250px] items-center"><div class="xl:text-4xl ph:text-xl sm:text-3xl">Data driven investment process</div></div>
         </div>
     </div>
     <!--pagecontent-->

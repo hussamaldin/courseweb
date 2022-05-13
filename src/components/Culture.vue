@@ -1,20 +1,21 @@
 <template>
     <div>
                  <div class="w-full text-white flex flex-row sm:flex-wrap overflow-hidden h-[500px] border-b-2 border-teal-500 bg-teal-700">
-        <div class="sm:w-full xl:w-[60%] ph:h-auto xl:h-full sm:h-auto absolute ph:top-[200px] sm:top-[200px] flex justify-center sm:justify-start items-center"><div class="xl:text-6xl sm:text-3xl ph:text-xl">Aligning with UN SDGs</div></div>
-        <div class="sm:w-full xl:w-[50%] ph:h-auto xl:h-full relative">
-          <svg class="absolute z-0 xl:top-[130px] ph:top-[300px] sm:top-[300px] xl:right-[80px] ph:left-[200px] sm:right-[300px]" width="100" height="200" viewBox="-1 -1 240 300">
+        <div class="sm:w-full xl:w-[50%] ph:h-auto  relative">
+          <svg class="absolute z-0 xl:top-[250px] ph:top-[300px] sm:top-[300px] xl:right-[200px] ph:left-[200px] sm:right-[300px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
 </svg>
-<svg class="absolute xl:bottom-[10px] sm:bottom-[-100px] ph:bottom-[-150px] z-0 xl:right-[100px] ph:left-[100px] sm:left-[100px]" width="320" height="320" viewBox="-1 -1 240 300">
+<svg class="absolute xl:bottom-[-180px] sm:bottom-[-100px] ph:bottom-[-150px] z-0 xl:right-[100px] ph:left-[100px] sm:left-[100px]" width="320" height="320" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="orange" stroke-width="2" fill="transparent" />
+
 </svg>
+<div class="sm:w-full xl:w-[80%] ph:w-[250px] ph:h-auto sm:h-auto absolute ph:top-[200px] sm:top-[200px] flex justify-center sm:justify-start items-center"><div class="xl:text-5xl sm:text-3xl ph:text-xl">Aligning with UN SDGs</div></div>
         </div>
     </div>
 <!--pagecontent-->
     <div class="flex flex-col">
 
-                  <div class="w-full xl:h-[600px] ph:h-auto sm:h-auto p-4 my-4 flex flex-row ph:flex-wrap sm:flex-wrap">
+                  <div class="w-full xl:h-[650px] ph:h-auto sm:h-auto p-4 my-4 flex flex-row ph:flex-wrap sm:flex-wrap">
         <div class="sm:text-4xl ph:text-xl ph:w-full sm:w-full xl:w-[54%] opacity-0 slidet p-4 text-gray-600 relative">
                       <svg class="absolute z-0 bottom-[130px] left-[10px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="gray" stroke-width="5" fill="transparent" />
@@ -32,7 +33,7 @@
       </div>
 
       <div class="w-full flex justify-center sm:my-2 xl:my-4">
-          <div class="w-[70%] ph:w-[90%] opacity-0 slidet">
+          <div class="xl:w-[70%] ph:w-[90%] opacity-0 slidet">
               <div class="text-gray-700 sm:text-3xl ph:text-xl my-4">What our purpose means to our business</div>
               <div class="text-gray-700 sm:text-lg ph:text-sm leading-8 my-2">In 2020 we worked together as a team to formally articulate the purpose of our business.Whilst what motivated us as a team had always been clear – to deliver transformational treatments to patients – we had not taken the opportunity to date to define this in a formal statement behind which we could all align on a go forward basis.</div>
           </div>
@@ -41,7 +42,7 @@
 
 
 
-                  <div class="w-full xl:h-[600px] ph:h-auto sm:h-auto bg-gray-200 p-4 my-4 flex flex-row ph:flex-wrap sm:flex-wrap">
+                  <div class="w-full xl:h-[690px] ph:h-auto sm:h-auto bg-gray-200 p-4 my-4 flex flex-row ph:flex-wrap sm:flex-wrap">
                               <div class="sm:w-full ph:w-full ph:order-2 sm:order-2 xl:w-[46%] opacity-0 slidet text-xl flex flex-col items-center justify-center text-gray-600 p-4">
                        <div class="sm:text-3xl ph:text-xl text-gray-700 my-4 font-bold">A strong culture and purpose</div>
             <div class="sm:text-xl ph:text-sm my-4">Our purpose is to invest to extend and enhance human life.</div>

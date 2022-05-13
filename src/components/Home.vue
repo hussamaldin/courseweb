@@ -1,12 +1,12 @@
 <template>
   <div class="w-full h-full ">
-    <div class="w-full h-[700px] ph:h-[600px] relative border-b-2 border-gray-200">
+    <div class="w-full xl:h-[700px] ph:h-[600px] relative border-b-2 border-gray-200">
       <div class="mySlides w-full h-[100%] block bg-blue-600 pt-[100px] z-10 absolute top-0 left-0 overflow-hidden">
-<img class="mask mask-hexagon absolute xl:bottom-[-100px] ph:w-[320px] ph:h-[320px] sm:w-[420px] sm:h-[420px] xl:right-[10px] xl:w-[600px] xl:h-[600px]" :src="img1" />
-<svg class="absolute z-0 xl:top-[80px] ph:top-[300px] sm:top-[150px]  xl:right-[50px]" width="190" height="290" viewBox="-1 -1 240 300">
+<img class="mask mask-hexagon absolute ph:bottom-[-100px] xl:bottom-[-100px] ph:w-[320px] ph:h-[320px] sm:w-[420px] sm:h-[420px] xl:right-[10px] xl:w-[600px] xl:h-[600px]" :src="img1" />
+<svg class="absolute z-0 xl:top-[80px] ph:top-[330px] sm:top-[150px]  xl:right-[50px]" width="190" height="290" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
 </svg>
-<svg class="absolute xl:bottom-[80px] sm:bottom-[20px] ph:w-[300px] ph:h-[300px] sm:w-[350px] sm:h-[350px] z-0 sm:right-[200px] xl:right-[350px]" width="390" height="490" viewBox="-1 -1 240 300">
+<svg class="absolute ph:bottom-[120px] xl:bottom-[80px] sm:bottom-[20px] ph:w-[300px] ph:h-[300px] sm:w-[350px] sm:h-[350px] z-0 sm:right-[200px] xl:right-[350px]" width="390" height="490" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="lime" stroke-width="1" fill="transparent" />
 </svg>
 <div class="absolute xl:top-[100px] ph:top-[160px] xl:top-[200px] ph:w-[300px] sm:w-[450px] xl:left-[50px]">

@@ -1,15 +1,15 @@
 <template>
   <div class="w-full h-full">
     <div class="w-full text-white flex flex-row sm:flex-wrap overflow-hidden h-[500px] border-b-2 border-teal-500 bg-teal-700">
-        <div class="xl:w-[50%] sm:w-full h-full sm:h-auto flex justify-center sm:justify-start items-center"><div class="text-7xl sm:text-5xl">About Us</div></div>
+        <div class="xl:w-[50%] sm:w-full h-full sm:h-auto flex justify-center sm:justify-start items-center"><div class="xl:text-5xl sm:text-5xl">About Us</div></div>
         <div class="xl:w-[50%] sm:w-full h-full sm:h-auto relative">
-          <svg class="absolute z-0 xl:top-[130px] sm:top-[50px] right-[80px] sm:right-[10px]" width="100" height="200" viewBox="-1 -1 240 300">
+          <svg class="absolute z-0 xl:top-[130px] ph:top-[230px] ph:right-[80px] xl:right-[80px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="black" stroke-width="1" fill="transparent" />
 </svg>
-<svg class="absolute xl:bottom-[80px] sm:bottom-[10px] ph:bottom-[-100px] z-0 xl:right-[350px] ph:right-[30px] sm:right-[310px]" width="290" height="290" viewBox="-1 -1 240 300">
+<svg class="absolute xl:bottom-[80px] ph:bottom-[-100px] sm:bottom-[-100px] z-0 ph:right-[50px] xl:right-[350px]" width="290" height="290" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
 </svg>
-          <img class="mask mask-hexagon-2 absolute bottom-[-50px] ph:bottom-[50px] ph:z-1  sm:bottom-[-100px] left-[130px] ph:left-[10px] sm:left-[180px] w-[400px] h-[400px] ph:w-[300px] ph:h-[300px]" :src="img1" />
+          <img class="mask mask-hexagon-2 absolute xl:bottom-[-50px] ph:bottom-[-130px] sm:bottom-[-100px] xl:left-[130px] ph:left-[-20px] sm:left-[-100px] w-[400px] h-[400px]" :src="img1" />
         </div>
 
     </div>

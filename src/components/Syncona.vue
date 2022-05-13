@@ -3,10 +3,10 @@
      <div class="w-full text-white flex flex-row sm:flex-wrap overflow-hidden h-[500px] bg-gray-700">
         <div class="sm:w-full xl:w-[60%] sm:h-auto h-full sm:absolute sm:top-[250px] flex justify-center sm:justify-start items-center"><div class="text-6xl sm:text-4xl ph:text-2xl">The Syncona platform</div></div>
         <div class="sm:w-full xl:w-[50%] sm:h-auto h-full relative">
-          <svg class="absolute z-0 xl:top-[130px] ph:top-[300px] sm:top-[350px] xl:right-[80px] ph:left-[-120px] sm:left-[130px]" width="100" height="200" viewBox="-1 -1 240 300">
+          <svg class="absolute z-0 xl:top-[280px] ph:top-[300px] sm:top-[350px] xl:right-[80px] ph:left-[-120px] sm:left-[130px]" width="100" height="200" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="white" stroke-width="1" fill="transparent" />
 </svg>
-<svg class="absolute xl:bottom-[10px] ph:bottom-[-100px] sm:bottom-[-120px] z-0 xl:right-[100px] sm:left-[50px] ph:left-[-100px]" width="320" height="320" viewBox="-1 -1 240 300">
+<svg class="absolute xl:bottom-[-150px] ph:bottom-[-100px] sm:bottom-[-120px] z-0 xl:right-[100px] sm:left-[50px] ph:left-[-100px]" width="320" height="320" viewBox="-1 -1 240 300">
   <path d="M104,0 L208,60 L208,180 L104,240 L0,180 L0,60z" stroke="black" stroke-width="2" fill="transparent" />
 </svg>
         </div>
